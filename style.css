@@ -5,11 +5,11 @@ body {
     font-weight: 500;
 }
 header {
-    margin: 2% 0 5% 0;
+    margin: 2% 0 0 0;
 }
 
 header img {
-    width: 42vw;
+    width: 30vw;
 }
 .col {
     margin-bottom:5% ;
