@@ -16,19 +16,43 @@ header img {
 }
 
 footer {
-    height: 30vh;
+    height: auto;
     background-color: #000;
     padding-top: 1rem;
 }
 
-footer .social-icons  {
-    font-size: xxx-large;
-}
-
 footer .fab {
-    margin: 1rem;
+    margin: 4px;
+    font-size: 2rem;
+    color: #333333;
+    background-color: white;
 }
 
+footer a {
+    /* position: relative;
+    left: 33vw; */
+    text-decoration: none;
+    color: white;
+    font-family: Droid Sans;
+    font-size: 12px;
+}
+
+footer hr {
+    /* position: relative;
+    left: 33vw; */
+    margin: 0;
+    width: 22vh;
+    color: #4e4e4e;
+    height: 3px;
+}
+
+footer .col-sm-12{
+    margin: 0;
+}
+
+footer p {
+ font-size: 12px;
+}
 /* footer a {
     text-decoration: none;
 } */
