@@ -1,3 +1,9 @@
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+}
 header {
     margin: 2% 0 5% 0;
 }
@@ -8,3 +14,21 @@ header img {
 .col {
     margin-bottom:5% ;
 }
+
+footer {
+    height: 30vh;
+    background-color: #000;
+    padding-top: 1rem;
+}
+
+footer .social-icons  {
+    font-size: xxx-large;
+}
+
+footer .fab {
+    margin: 1rem;
+}
+
+/* footer a {
+    text-decoration: none;
+} */
