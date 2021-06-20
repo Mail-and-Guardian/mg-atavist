@@ -49,6 +49,11 @@ header img {
     color: black;
     text-decoration: none;
 }
+
+.card img {
+    height: 22vh;
+}
+
 footer {
     height: auto;
     background-color: #000;
