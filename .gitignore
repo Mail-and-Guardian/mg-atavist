@@ -1,0 +1,10 @@
+.vscode
+.DS_Store
+*.jpg
+*.webm
+*.eot
+*.woff
+*.svg
+*.mp4
+*.ttf
+*.png

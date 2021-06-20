@@ -1,0 +1,751 @@
+<html lang="en" dir="ltr" class="web theme-thurber">  <head>
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><html class="no-js"><![endif]-->
+<!-- Begin Template: vanilla -->
+<title>Finding Rhapta</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="Description" content="Forgotten by history, the ancient city of Rhapta is among Africa’s most enduring archaeological mysteries.">
+<meta property="og:rich_attachment" content="true">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Finding Rhapta">
+<meta property="og:description" content="Forgotten by history, the ancient city of Rhapta is among Africa’s most enduring archaeological mysteries.">
+<meta property="og:url" content="http://atavist.mg.co.za/finding-rhapta">
+<meta property="og:site_name" content="Mail &amp; Guardian">
+<meta property="fb:app_id" content="818399188279985">
+<meta property="fb:pages" content="161428670566653">
+<meta property="article:publisher" content="https://www.facebook.com/MailGuardian/">
+<meta property="article:published_time" content="2018-02-08T07:11:41-0500">
+<meta property="article:modified_time" content="2018-12-11T02:09:10-0500">
+<meta property="og:updated_time" content="1544512150">
+<meta property="og:image" content="scale~1200x1200~graphicrhap-1519212727-60.jpg">
+<meta name="twitter:image" content="scale~1200x1200~graphicrhap-1519212727-60.jpg?1544512150">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@mailandguardian">
+<meta name="twitter:title" content="Finding Rhapta">
+<meta name="twitter:description" content="Forgotten by history, the ancient city of Rhapta is among Africa’s most enduring archaeological mysteries.">
+<link rel="canonical" href="http://atavist.mg.co.za/finding-rhapta">
+<link href="style.css?bump&amp;1545512709" rel="stylesheet" type="text/css">
+<dom-module id="navigation-none">
+<template>
+<div class="nav-icons vertical-nav-icons">
+	<content select=".story-icons"></content>
+</div>
+<content select="article"></content>
+<content select='footer[is="atavist-footer"]'></content>
+</template>
+</dom-module>
+
+<dom-module id="atavist-image">
+<template>
+	<img alt="{{title}}" title="{{title}}" draggable="false">
+	<div class="uploader-input uploader-progress progress" style="display:none;">
+		<div class="progress-bar" role="progressbar" style="width:0%;"></div>
+	</div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-audio">
+<template>
+	<div class="player-chrome">
+		<div class="play-pause-control">
+			<div class="duration-indicator">
+				<span class="progress-display"></span>
+			</div>
+
+			<div class="play-pause-button">
+				<div class="play-button">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="17.5 17.5 65 65" enable-background="new 17.5 17.5 65 65" xml:space="preserve" stroke-width="1">
+						<circle fill="none" stroke-miterlimit="10" cx="50" cy="50" r="27.5"></circle>
+						<polygon stroke-miterlimit="10" points="45.087,40.863 60.912,50 45.087,59.137 "></polygon>
+					</svg>
+				</div>
+				<div class="pause-button">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 65 65" enable-background="new 0 0 65 65" xml:space="preserve" stroke-width="1">
+						<circle fill="none" stroke-miterlimit="10" cx="32.5" cy="32.5" r="27.5"></circle>
+						<g>
+							<rect x="27.515" y="23.363" width="1" height="18.273"></rect>
+							<rect x="36.118" y="23.363" width="1" height="18.273"></rect>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<div class="duration-indicator">
+				<span class="remaining-display"></span>
+			</div>
+		</div>
+		<div class="scrubber-bar">
+			<div class="scrubber-progress"></div>
+		</div>
+		<div class="uploader-input uploader-progress progress" style="display:none;">
+			<div class="progress-bar" role="progressbar" style="width:0%;"></div>
+		</div>
+	</div>
+	<audio></audio>
+</template>
+</dom-module>
+
+<dom-module id="atavist-video">
+<template>
+	<video></video>
+	<div class="uploader-input uploader-progress progress regular-progress" style="display:none;">
+		<div class="progress-bar regular-progress-bar" role="progressbar" style="width:0%;"></div>
+		<div class="progress-bar video-progress-bar" role="progressbar" style="width:0%;"></div>
+	</div>
+</template>
+</dom-module>
+
+
+
+<dom-module id="atavist-video-embed">
+<template>
+	<iframe></iframe>
+</template>
+</dom-module>
+
+
+
+<dom-module id="atavist-multi-video">
+<template>
+</template>
+</dom-module>
+
+
+
+
+<dom-module id="atavist-background-image-with-shim">
+<template>
+	<atavist-image use_as_background="true"></atavist-image>
+	<div class="atavist-background-image-with-shim-shim"></div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-background-video-with-shim">
+<template>
+	<atavist-video loop muted></atavist-video>
+	<div class="atavist-background-video-with-shim-shim"></div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-dfp">
+<template>
+	<div class="atavist-dfp-wrapper"></div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-logo">
+<template>
+	<div class="paperclip-logo">
+	<div class="paperclip-logo-static-background"></div>	
+	<svg viewbox="1 0 23 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <g fill="currentColor">
+	        <path d="M23.7269687,20.9285955 C23.7130074,20.8897493 22.13937,16.7967794 19.9580838,11.2403697 L18.1504285,12.0420126 C20.3310499,17.5963035 21.9046873,21.6871545 21.9179838,21.7245881 C22.3946623,23.0340559 22.2417528,23.8484121 21.445959,24.2015588 C20.6109406,24.5716565 19.9966436,24.1055029 19.4568069,22.8165176 C19.433538,22.7614267 14.4333999,9.950678 14.410131,9.892762 C13.9873032,8.8149583 13.7459723,7.8480428 14.108966,6.348582 C14.2758367,5.8329879 14.4340647,5.3463517 14.5344531,5.036289 C14.5663646,4.9557715 14.5876389,4.8851422 14.6215449,4.8017996 L14.6109078,4.8025059 C14.628858,4.7460024 14.6421545,4.7043311 14.6421545,4.7043311 C15.2850389,2.698458 14.6687474,1.07398331 12.6855787,0.28929141 C10.7502772,-0.47633058 9.1367504,0.30412357 8.3795163,2.3177659 C8.358242,2.3756819 1.2951562,21.172973 1.2752115,21.2301827 C0.59842112,23.2000348 1.1482302,24.8287473 3.165305,25.6847748 C5.0514095,26.4842989 6.6110856,25.7257398 7.3962423,23.8307548 C7.4115332,23.792615 9.5103812,18.2566877 11.6112238,12.6663759 L9.7922664,11.8943973 C7.6914239,17.4840028 5.5939055,23.0178112 5.5792794,23.0545384 C5.0573929,24.3442301 4.4111844,24.8125025 3.6107368,24.4727754 C2.7703998,24.1168036 2.6387647,23.3271676 3.1021467,22.0049865 C3.1220914,21.9477768 10.1851772,3.151192 10.2071164,3.0925697 C10.73964,1.67503894 11.4131063,1.15520704 12.2561026,1.4885775 C12.9634749,1.76826967 13.2360526,2.6377168 12.8052469,3.981793 C12.7979339,4.0051007 12.6662988,4.4684291 12.4980984,5.0603029 C12.0932209,6.1684772 11.934328,7.184127 11.9489541,7.8741756 C11.9655747,8.6595738 12.3152719,10.0650976 12.469511,10.4062372 C12.5014225,10.4761603 17.6099269,23.5468249 17.6411737,23.6209857 C18.4555825,25.5315092 19.9208537,26.2865368 21.9252968,25.3980197 C23.8000993,24.5674188 24.4143963,22.8659581 23.7269687,20.9285955 L23.7269687,20.9285955 Z"></path>
+	    </g>
+	</svg>	
+</div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-promo-frame">
+<template>
+	<div class="paperclip-logo-background-wrapper">
+		<div class="paperclip-logo-background do-not-animate"></div>
+	</div>
+	<div class="iframe-wrapper">
+		<iframe scrolling="no" frameborder="no"></iframe>
+		<div class="touch-close"></div>
+	</div>	
+</template>
+</dom-module>
+
+<dom-module id="atavist-footer">
+<template>
+	<a href="https://atavist.com/signup" class="atavist-footer-wrapper atavist-cover-left-gutter-padding-left atavist-cover-right-gutter-padding-right">
+		<div class="text">
+			<svg viewbox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <g fill="currentColor" fill-rule="evenodd">
+			        <path d="M21.5,43 C33.3741221,43 43,33.3741221 43,21.5 C43,9.62587788 33.3741221,0 21.5,0 C9.62587788,0 0,9.62587788 0,21.5 C0,33.3741221 9.62587788,43 21.5,43 Z M32.7269687,28.9285955 C32.7130074,28.8897493 31.13937,24.7967794 28.9580838,19.2403697 L27.1504285,20.0420126 C29.3310499,25.5963035 30.9046873,29.6871545 30.9179838,29.7245881 C31.3946623,31.0340559 31.2417528,31.8484121 30.445959,32.2015588 C29.6109406,32.5716565 28.9966436,32.1055029 28.4568069,30.8165176 C28.433538,30.7614267 23.4333999,17.950678 23.410131,17.892762 C22.9873032,16.8149583 22.7459723,15.8480428 23.108966,14.348582 C23.2758367,13.8329879 23.4340647,13.3463517 23.5344531,13.036289 C23.5663646,12.9557715 23.5876389,12.8851422 23.6215449,12.8017996 L23.6109078,12.8025059 C23.628858,12.7460024 23.6421545,12.7043311 23.6421545,12.7043311 C24.2850389,10.698458 23.6687474,9.07398331 21.6855787,8.28929141 C19.7502772,7.52366942 18.1367504,8.30412357 17.3795163,10.3177659 C17.358242,10.3756819 10.2951562,29.172973 10.2752115,29.2301827 C9.59842112,31.2000348 10.1482302,32.8287473 12.165305,33.6847748 C14.0514095,34.4842989 15.6110856,33.7257398 16.3962423,31.8307548 C16.4115332,31.792615 18.5103812,26.2566877 20.6112238,20.6663759 L18.7922664,19.8943973 C16.6914239,25.4840028 14.5939055,31.0178112 14.5792794,31.0545384 C14.0573929,32.3442301 13.4111844,32.8125025 12.6107368,32.4727754 C11.7703998,32.1168036 11.6387647,31.3271676 12.1021467,30.0049865 C12.1220914,29.9477768 19.1851772,11.151192 19.2071164,11.0925697 C19.73964,9.67503894 20.4131063,9.15520704 21.2561026,9.4885775 C21.9634749,9.76826967 22.2360526,10.6377168 21.8052469,11.981793 C21.7979339,12.0051007 21.6662988,12.4684291 21.4980984,13.0603029 C21.0932209,14.1684772 20.934328,15.184127 20.9489541,15.8741756 C20.9655747,16.6595738 21.3152719,18.0650976 21.469511,18.4062372 C21.5014225,18.4761603 26.6099269,31.5468249 26.6411737,31.6209857 C27.4555825,33.5315092 28.9208537,34.2865368 30.9252968,33.3980197 C32.8000993,32.5674188 33.4143963,30.8659581 32.7269687,28.9285955 Z"></path>
+			    </g>
+			</svg>
+			<span>Made with Atavist. <span class="cta-text">Make your own.</span></span>
+		</div>	
+	</a>
+</template>
+</dom-module>
+
+<dom-module id="atavist-story-data-byline">
+<template>
+	<div class="atavist-byline-wrapper" data-type>
+		<template is="dom-if" if="{{authors}}">
+			<template is="dom-if" if="{{stringToBool(_author.is_atavist)}}">
+
+				<template is="dom-if" if="{{_author.has_avatar}}">
+					<a target="_self" href>
+						<div class="atavist-byline-image" data-is-publication style></div>
+					</a>
+				</template>
+
+				<div class="byline-and-publication">
+					<a class="byline-link" target="_self" href>
+						<span class="atavist-byline-name">{{_author.profile_name}}</span>
+					</a>	
+
+					<template is="dom-if" if="{{shouldShowPublication(publication)}}">
+						<div class="publication">Published in <a class="publication-link" href>{{publication.profile_name}}</a>
+</div>
+					</template>
+				</div>				
+
+			</template>
+			<template is="dom-if" if="{{!stringToBool(_author.is_atavist)}}">
+				<div class="byline-and-publication hello">
+					<span class="atavist-byline-name">{{_author.profile_name}}</span>
+					<template is="dom-if" if="{{shouldShowPublication(publication)}}">
+						<div class="publication">Published in <a class="publication-link" href>{{publication.profile_name}}</a>
+</div>
+					</template>
+				</div>
+
+			</template>
+		</template>
+	</div>
+
+</template>
+</dom-module>
+
+<dom-module id="atavist-menu">
+<template>
+	<ul class="atavist-menu-wrapper">
+		<template is="dom-repeat" items="{{items}}">
+		<li data-type data-submenu>
+			<a href target="_self">{{_labelForMenuItem(item.menu_item)}}</a>
+			<template is="dom-if" if="{{_needs_submenu(item)}}}">
+			<ul class="atavist-top-nav-container">
+				<template is="dom-repeat" items="{{_submenu(item)}}" as="submenu_item">
+				<li>
+					<a href target="_self">{{_labelForMenuItem(submenu_item)}}</a>
+				</li>
+				</template>
+			</ul>
+			</template>
+		</li>
+		</template>
+	</ul>
+</template>
+</dom-module>
+
+<dom-module id="atavist-search">
+<template>
+	<div class="search-icon">
+		<svg>
+		    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g transform="translate(1.000000, 1.000000)" stroke="#000000">
+		            <g>
+		                <g transform="translate(7.000000, 7.500000) scale(-1, 1) translate(-7.000000, -7.500000) ">
+		                    <g>
+		                        <g>
+		                            <g>
+		                                <path d="M0,15 L3,12" stroke-width="3"></path>
+		                                <path d="M8,12 C11.3137085,12 14,9.3137085 14,6 C14,2.6862915 11.3137085,0 8,0 C4.6862915,0 2,2.6862915 2,6 C2,9.3137085 4.6862915,12 8,12 L8,12 Z" stroke-width="2"></path>
+		                            </g>
+		                        </g>
+		                    </g>
+		                </g>
+		            </g>
+		        </g>
+		    </g>
+		</svg>
+	</div>
+</template>
+</dom-module>
+<base target="_blank">
+<dom-module id="cover-basic"><template><atavist-multi-background key="background" data_key="title_page"></atavist-multi-background>
+<div class="cover-text-outside-wrapper atavist-cover-left-gutter-padding-left atavist-cover-right-gutter-padding-right" data-cover-text-alignment="center-middle">
+	<div class="cover-text-inside-wrapper">
+		<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1">
+			<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…"></atavist-story-data>
+		</h1>
+		<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2">
+			<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…"></atavist-story-data>
+		</h2>
+		<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline">
+			<atavist-story-data-byline class="atavist-byline" key="the_byline" data_key="byline_picker" legacy_data_key="byline"></atavist-story-data-byline>
+		</div>
+	</div>	
+</div></template></dom-module>
+<dom-module id="atavist-simple-image"><template><div class="atavist-simple-image-wrapper atavist-cover-aligned-block-width-as-max-width" data-is_clickable>
+	<atavist-image key="the_image" alt="" use_as_background="false" real_size title></atavist-image>
+	<p is="atavist-caption" key="the_caption"></p>
+</div></template></dom-module>
+<dom-module id="cover-text-simple"><template><div class="cover-text-wrapper atavist-cover-column-width-and-alignment cover-text-on-solid-background">
+	<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1">
+		<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…"></atavist-story-data>
+	</h1>
+	<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2">
+		<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…"></atavist-story-data>
+	</h2>
+	<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline">
+		<atavist-story-data-byline class="atavist-byline" key="the_byline" data_key="byline_picker" legacy_data_key="byline"></atavist-story-data-byline>
+	</div>
+
+</div>	
+</template></dom-module>
+<dom-module id="atavist-simple-video"><template><atavist-multi-video key="multi_video" controls="true"></atavist-multi-video>
+<p key="the_caption" is="atavist-caption"></p></template></dom-module>
+<dom-module id="atavist-simple-slideshow"><template><!-- Slider main container -->
+<div class="swiper-container">
+
+	<div class="atavist-slideshow-message"></div>
+	<atavist-rows class="simple-slideshow-wrapper swiper-wrapper" key="slides" minimum="1" row_classes="swiper-slide">
+		<template>
+				<div class="slide-background atavist-cover-background-color"></div>
+				<atavist-image class="slideshow-slide-image" use_as_background="true" key="slide_image"></atavist-image>
+				<p class="slideshow-slide-caption" is="atavist-caption" key="slide_title" updateable_text="1"></p>
+		</template>
+	</atavist-rows>
+
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="atavist-swiper-add">
+<i class="at-plus lg" style-scope="form-slides"></i> Add</div>
+    
+</div>
+<once-loaded run="swiper_ready">
+	<external-script url="swiper.jquery.min.js"></external-script>
+</once-loaded></template></dom-module>
+</head>        <body class="template-setting-paragraph-spacing-Spaces template-setting-pagination-Scroll template-setting-navigation-option-None template-setting-pop-up-style-Overlay template-setting-drop-caps-Drop  not-homesite" data-route_type="story">  	  	  	    	<div class="story-wrapper" is="story-controller" nav="None">  		<div class="nav-wrapper navigation-None" is="navigation-None" organization='{"profile_image":"smalllogoc-1540464558-98.jpg","name":"Mail &amp; Guardian","base_path":"\/data\/files\/organization\/222157\/image\/raw\/","is_publication":false,"suppress_creatavist_footer":false,"profile_description":"The Mail &amp; Guardian is a South African weekly newspaper, published by M&amp;G Media in Johannesburg, South Africa. It focuses on political analysis, investigative reporting, news, local arts, music and popular culture.  ","url":"http:\/\/atavist.mg.co.za"}'>    			<article is="pagination-Scroll">    				  				  				  					  						<section class="atavist-section story-cover story-data-container" id="story-cover" data-story='{"title":"Finding Rhapta","subtitle":"Kevin Davie goes on a journey to find a Roman-era city off the East African coast, using a captain\u2019s log written 2 000 years ago.","byline":"","byline_picker":"{\"authors\":[],\"publication\":{\"id\":\"user-280287\",\"profile_name\":\"Mail &amp; Guardian\",\"avatar\":\"https:\/\/atavist.com\/data\/files\/organization\/222157\/image\/derivative\/cropandscale~150x150~smalllogoc-1501763525-76.jpg\",\"is_publication\":false,\"type\":\"user\",\"url\":\"https:\/\/mailguardian.atavist.com\",\"is_atavist\":true,\"has_avatar\":true}}","title_page":"download2-1518089361-7.jpg","description":"Forgotten by history, the ancient city of Rhapta is among Africa\u2019s most enduring archaeological mysteries.","pub_date":"1518091901"}'><div is="cover-basic" class="atavist-cover-font-sans-serif atavist-cover-chapter-padding-top-as-margin-bottom atavist-cover-solid-background cover-basic atavist-shared atavist-cover atavist-block-align-center" data-assets="https://atavist.comscale~1200x0~download2-1518089361-7.jpg,https://atavist.comscale~800x0~download2-1518089361-7.jpg,https://atavist.comscale~400x0~download2-1518089361-7.jpg,underwaterr-1519211577-35.mp4.mp4,underwaterr-1519211577-35.mp4.jpg" contenteditable="false" atavist-block="true" block_id="cover?block_name=cover-basic" block_type="cover-basic" title_position="top-left" background='{"mode":"video","bg_properties":{"shim_color":"rgba(0, 0, 0, 0.35)","video":{"filename":"underwaterr-1519211577-35.mp4.mp4","progress":0,"video_progress":0,"path":"underwaterr-1519211577-35.mp4.mp4","temp_path":null},"image":{"filename":"download2-1518089361-7.jpg","focal_point":{"x":50,"y":50},"progress":0,"path":"download2-1518089361-7.jpg","temp_path":null}}}' the_title="Finding Rhapta" the_subtitle="Kevin Davie goes on a journey to find a Roman-era city off the East African coast, using a captain’s log written 2 000 years ago." the_byline='{"authors":[],"publication":{"id":"user-280287","profile_name":"Mail &amp; Guardian","avatar":"https://atavist.com/data/files/organization/222157/image/derivative/cropandscale~150x150~smalllogoc-1501763525-76.jpg","is_publication":false,"type":"user","url":"https://mailguardian.atavist.com","is_atavist":true,"has_avatar":true}}'>
+<atavist-multi-background key="background" data_key="title_page" style-scope="cover-basic" class="atavist-multi-background atavist-shared atavist-subcomponent" mode="video" bg_properties='{"shim_color":"rgba(0, 0, 0, 0.35)","video":{"filename":"underwaterr-1519211577-35.mp4.mp4","progress":0,"video_progress":0,"path":"underwaterr-1519211577-35.mp4.mp4","temp_path":null},"image":{"filename":"download2-1518089361-7.jpg","focal_point":{"x":50,"y":50},"progress":0,"path":"download2-1518089361-7.jpg","temp_path":null}}'><atavist-background-video-with-shim class="atavist-background-video-with-shim atavist-shared atavist-subcomponent" shim_color="rgba(0, 0, 0, 0.35)" video='{"filename":"underwaterr-1519211577-35.mp4.mp4","progress":0,"video_progress":0,"path":"underwaterr-1519211577-35.mp4.mp4","temp_path":null}'>
+  							<atavist-video loop="" muted="" style-scope="atavist-background-video-with-shim" class="atavist-video atavist-shared atavist-subcomponent has-uploader" style="width: 1368.89px; height: 770px;" filename="underwaterr-1519211577-35.mp4.mp4" path="underwaterr-1519211577-35.mp4.mp4" progress="0" video_progress="0">
+  							<div id="vjs_video_3" class="video-js vjs-atavist-skin vjs-controls-disabled vjs-user-inactive vjs-playing vjs-has-started" poster="https://atavist-static.s3.amazonaws.com/samples/waves_poster.jpg" src="https://atavist-static.s3.amazonaws.com/samples/waves.mp4" style-scope="atavist-video" style="width: 300px; height: 0px; min-height: 0px; padding-bottom: 56.25%;">
+<div></div>
+<div class="vjs-poster" tabindex="-1" style='background-image: url("underwaterr-1519211577-35.mp4.jpg"); display: none;'></div>
+<div class="vjs-text-track-display"></div>
+<div class="vjs-loading-spinner"></div>
+<div class="vjs-big-play-button" role="button" aria-live="polite" tabindex="0" aria-label="play video"><span aria-hidden="true"></span></div>
+<div class="vjs-control-bar">
+<div class="vjs-play-control vjs-control  vjs-playing" role="button" aria-live="polite" tabindex="0"><div class="vjs-control-content"><span class="vjs-control-text">Pause</span></div></div>
+<div class="vjs-current-time vjs-time-controls vjs-control"><div class="vjs-current-time-display" aria-live="off">
+<span class="vjs-control-text">Current Time</span> 0:05</div></div>
+<div class="vjs-time-divider"><div><span>/</span></div></div>
+<div class="vjs-duration vjs-time-controls vjs-control"><div class="vjs-duration-display" aria-live="off">
+<span class="vjs-control-text">Duration Time</span> 1:49</div></div>
+<div class="vjs-remaining-time vjs-time-controls vjs-control"><div class="vjs-remaining-time-display" aria-live="off">
+<span class="vjs-control-text">Remaining Time</span> -1:43</div></div>
+<div class="vjs-live-controls vjs-control"><div class="vjs-live-display" aria-live="off">
+<span class="vjs-control-text">Stream Type</span>LIVE</div></div>
+<div class="vjs-progress-control vjs-control"><div role="slider" aria-valuenow="5.45" aria-valuemin="0" aria-valuemax="100" tabindex="0" class="vjs-progress-holder vjs-slider" aria-label="video progress bar" aria-valuetext="0:05">
+<div class="vjs-load-progress" style="width: 7.965%;"><span class="vjs-control-text" style="left: 0%; width: 100%;"><span>Loaded</span>: 0%</span></div>
+<div class="vjs-play-progress" style="width: 5.45%;"><span class="vjs-control-text"><span>Progress</span>: 0%</span></div>
+<div class="vjs-seek-handle vjs-slider-handle" aria-live="off" style="left: 5.45%;"><span class="vjs-control-text">0:05</span></div>
+</div></div>
+<div class="vjs-fullscreen-control vjs-control " role="button" aria-live="polite" tabindex="0"><div class="vjs-control-content"><span class="vjs-control-text">Fullscreen</span></div></div>
+<div class="vjs-volume-control vjs-control"><div role="slider" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" tabindex="0" class="vjs-volume-bar vjs-slider" aria-label="volume level" aria-valuetext="100%">
+<div class="vjs-volume-level" style="width: 0%;"><span class="vjs-control-text"></span></div>
+<div class="vjs-volume-handle vjs-slider-handle" style="left: 0%;"><span class="vjs-control-text">00:00</span></div>
+</div></div>
+<div class="vjs-mute-control vjs-control vjs-vol-0" role="button" aria-live="polite" tabindex="0"><div><span class="vjs-control-text">Unmute</span></div></div>
+<div class="vjs-playback-rate vjs-menu-button vjs-control vjs-hidden" aria-haspopup="true" role="button">
+<div class="vjs-control-content"><span class="vjs-control-text">Playback Rate</span></div>
+<div class="vjs-playback-rate-value">1</div>
+<div class="vjs-menu"><ul class="vjs-menu-content"></ul></div>
+</div>
+<div class="vjs-subtitles-button vjs-menu-button vjs-control " role="button" aria-live="polite" tabindex="0" aria-haspopup="true" aria-label="Subtitles Menu" style="display: none;"><div class="vjs-control-content">
+<span class="vjs-control-text">Subtitles</span><div class="vjs-menu"><ul class="vjs-menu-content"><li class="vjs-menu-item vjs-selected" role="button" aria-live="polite" tabindex="0" aria-selected="true">subtitles off</li></ul></div>
+</div></div>
+<div class="vjs-captions-button vjs-menu-button vjs-control " role="button" aria-live="polite" tabindex="0" aria-haspopup="true" aria-label="Captions Menu" style="display: none;"><div class="vjs-control-content">
+<span class="vjs-control-text">Captions</span><div class="vjs-menu"><ul class="vjs-menu-content"><li class="vjs-menu-item vjs-selected" role="button" aria-live="polite" tabindex="0" aria-selected="true">captions off</li></ul></div>
+</div></div>
+<div class="vjs-chapters-button vjs-menu-button vjs-control " role="button" aria-live="polite" tabindex="0" aria-haspopup="true" aria-label="Chapters Menu" style="display: none;"><div class="vjs-control-content">
+<span class="vjs-control-text">Chapters</span><div class="vjs-menu"><ul class="vjs-menu-content"><li class="vjs-menu-title">Chapters</li></ul></div>
+</div></div>
+</div>
+<div class="vjs-error-display"><div></div></div>
+</div>
+  							
+  						</atavist-video>
+  							<div class="atavist-background-video-with-shim-shim" style-scope="atavist-background-video-with-shim" style="background-color: rgba(0, 0, 0, 0.35);"></div>
+  						</atavist-background-video-with-shim></atavist-multi-background>
+  						<div class="cover-text-outside-wrapper atavist-cover-left-gutter-padding-left atavist-cover-right-gutter-padding-right" data-cover-text-alignment="top-left" style-scope="cover-basic">
+  							<div class="cover-text-inside-wrapper" style-scope="cover-basic">
+  								<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1" style-scope="cover-basic">
+  									<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…" style-scope="cover-basic" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">Finding Rhapta</atavist-story-data>
+  								</h1>
+  								<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2" style-scope="cover-basic">
+  									<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…" style-scope="cover-basic" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">Kevin Davie goes on a journey to find a Roman-era city off the East African coast, using a captain’s log written 2 000 years ago.</atavist-story-data>
+  								</h2>
+  								<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline" style-scope="cover-basic">
+  									<atavist-story-data-byline class="atavist-byline atavist-story-data-byline atavist-shared atavist-subcomponent" key="the_byline" data_key="byline_picker" legacy_data_key="byline" style-scope="cover-basic" authors='[{"id":"custom","profile_name":"Kevin Davie","has_avatar":false,"is_atavist":false,"url":null,"type":"custom"}]'>
+  							<div class="atavist-byline-wrapper" style-scope="atavist-story-data-byline" data-type="custom">
+  								<template is="dom-if" style-scope="atavist-story-data-byline"></template>
+  							</div>
+  						
+  						</atavist-story-data-byline>
+  								</div>
+  							</div>	
+  						</div>
+</div></section>  				  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3451038 chapter-type-text " id="chapter-3451038" data-chapter_type="0" data-chapter_id="3451038" data-chapter_url="https://mailandguardian.atavist.com/finding-rhapta#chapter-3451038" data-title="">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"","subtitle":"Forgotten by history, the ancient city of Rhapta is among Africa\u2019s most enduring archaeological mysteries. But a barnacle-encrusted wall, submerged in turbulent waters off Tanzania\u2019s Mafia Island, may be all that remains of it","byline":""}'><div data-cover="true" is="cover-text-simple"></div></div>  										  							
+  							
+  										<p>A submerged Roman-era city near the equator off East Africa’s coast? A document written in about CE 40 by a sea merchant confirms its existence: “The very last port of trade on the coast of Azania, called Rhapta where there are great quantities of ivory and tortoiseshell.”</p>
+<p>He lived in Egypt and in about CE 40 wrote the <i>Periplus of the Erythraean Sea</i>, a coastal log of what is now called the Indian Ocean.<br></p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~graphicrhap-1519209830-80.jpg,scale~800x0~graphicrhap-1519209830-80.jpg,scale~400x0~graphicrhap-1519209830-80.jpg" contenteditable="false" atavist-block="true" block_id="2017617" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"graphicrhap-1519209830-80.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":1000,"path":"graphicrhap-1519209830-80.jpg","temp_path":null}' the_caption="(Graphic: John McCann)"></atavist-simple-image><p>Rhapta was also included in Claudius Ptolemy’s monumental <i>Geography</i>, an epistle on how to make maps completed in about 150 CE. He listed 6 500 locations known to the Roman world, including Rhapta, which, tantalisingly, he called a metropolis.</p>
+<p>Rhapta was the southern extent of the trading reach of the Roman Empire, one of two legs which traversed the Indian Ocean from the Red Sea, the other as far as the Ganges off eastern India. Both routes used the monsoon winds, which blow one way for part of the year, then switch and blow in reverse.<br></p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-left" data-assets="scale~1200x0~graphicmafi-1519209912-7.jpg,scale~800x0~graphicmafi-1519209912-7.jpg,scale~400x0~graphicmafi-1519209912-7.jpg" contenteditable="false" atavist-block="true" block_id="2017619" block_type="atavist-simple-image" data-alignment="left" audio_color_scheme="white" the_image='{"filename":"graphicmafi-1519209912-7.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":1000,"path":"graphicmafi-1519209912-7.jpg","temp_path":null}' the_caption="(Graphic: John McCann)"></atavist-simple-image><p>Researchers have been looking for Rhapta for decades. The <i>Periplus</i> captain said it was about two runs (185km) beyond Menuthias. The problem, though, is that Menuthias could be either Pemba or Zanzibar, both off the mainland and about 100km apart.<br></p>
+<p>Lionel Casson, in the <i>Periplus Maris Erythraei</i>, the defining work on the <i>Periplus</i>, said that if it was Pemba, then Rhapta lay in the vicinity of today’s Dar es Salaam; if it was Zanzibar, then the metropolis was at the mouth of the Rufiji River, more or less opposite Mafia Island, 133km south of Zanzibar.</p>
+<p>The Swahili coast has been extensively excavated by archaeologists, in recent times by Felix Chami, professor of archaeology at the University of Dar es Salaam. I spent an hour with him at the university, he generously sharing his research insights which show settlement patterns reaching back to neolithic times, Iron Age settlements 2000 years ago and trade items from Roman and later empires.<br></p>
+<p>Chami said the doyen of East African coastal archaeology, Neville Chittick, was convinced Rhapta was in the area of the Rufiji River. Shortly before his death in the 1980s though, Chittick said it was possible all traces of Rhapta had been washed away or buried.<br></p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3451061 chapter-type-text " id="chapter-3451061" data-chapter_type="0" data-chapter_id="3451061" data-chapter_url="https://mailandguardian.atavist.com/finding-rhapta#chapter-3451061" data-title="">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"","subtitle":"","byline":""}'><div data-cover="true" is="cover-text-simple"></div></div>  										  							
+  							
+  										<p>Then in April 2016, Alan Sutton, a South African diver living in Tanzania, told in a web report of an unusual discovery he made during a helicopter trip off the usual flight path to Mafia. The tide was low, a large rectangular structure revealed itself.</p>
+<p>“Geologically speaking, Mafia Island is a sand island. There are no rocks in the area. Neither are there barrier reefs and the formation appeared highly unusual,” wrote Sutton.</p>
+<p> “On a previous trip in 2001, by boat, we saw reef in the water and stopped. The visibility was very poor. I put my head into the water and saw reef with little growth on it, but it looked to me like a wall.</p>
+<p>“We decided to visit. After several unsuccessful attempts due to low water visibility, we found the formations on a spring low tide.</p>
+<p>“What we found was far larger than expected. A series of what appear to be wide foundations ring a large area. Along the entire perimeter created by these foundations, many thousands of square and oblong blocks lie to either side. Some — as large as five square metres and 40cm thick — have fallen off the foundation and others are still leaning against it.</p>
+<p>“The north foundation, which runs roughly west-east, is approximately 3.7 kilometres long, using GPS. There may be parts covered by sand however, so it could be longer. The width between the north and south foundations at the widest point is approximately one kilometre. The foundations vary in width from 10 metres to 20 metres.</p>
+<atavist-simple-video class="atavist-simple-video atavist-shared atavist-block atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="2017643" block_type="atavist-simple-video" multi_video='{"mode":"youtube","youtube_url":"https://youtu.be/scN18RYf9eE"}' the_caption="&lt;!--StartFragment--&gt;Underwater view of city ruins discovered off the coast of Mafia Island, Tanzania. (Alan Sutton/Seaunseen)&lt;!--EndFragment--&gt;"></atavist-simple-video><p>“The south foundation is mainly underwater and is equal in length to the north foundation.”<br></p>
+<p>Sutton’s conclusion: “The site is very large, certainly the size of a city, is definitely manmade and very old. There appear to be other formations partially covered by sand in the area between the outer walls. There is a circular structure seven metres wide off to the side of one of the walls but we have not sited it ourselves. Other than the blocks and the foundations no other items were seen.</p>
+<p> “The blocks appear to be made out of a type of matrix light brown in colour which resembles sandstone. Given the sheer number and assumed weight of the blocks, they are likely to be made of some type of cement.</p>
+<p>“Some blocks also have small perfectly square holes in them as well as oblong holes near the edges. There are no sandstone deposits known in the area. The logistics of transporting the blocks to the area would have been formidable.”</p>
+<p>Sutton estimated, based on the age of the porites corals, that it had been under water for at least 550 years, and speculated it may have destroyed by a tsunami.</p>
+<p>Surprisingly, since the search for Rhapta goes back decades, Sutton’s find is clearly visible on Google Earth. But then Google Earth has only been available to researchers relatively recently.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~seaunseenas-1519210993-90.jpg,scale~800x0~seaunseenas-1519210993-90.jpg,scale~400x0~seaunseenas-1519210993-90.jpg" contenteditable="false" atavist-block="true" block_id="2017649" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"seaunseenas-1519210993-90.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":1800,"path":"seaunseenas-1519210993-90.jpg","temp_path":null}' the_caption="Diver Alan Sutton reported there were thousands of constructed blocks at the site. (Image: Seaunseen.com)"></atavist-simple-image>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3451067 chapter-type-text " id="chapter-3451067" data-chapter_type="0" data-chapter_id="3451067" data-chapter_url="https://mailandguardian.atavist.com/finding-rhapta#chapter-3451067" data-title="">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"","subtitle":"","byline":""}'><div data-cover="true" is="cover-text-simple"></div></div>  										  							
+  							
+  										<p>Sutton told Felix Chami about his find. The <i>Dar Post</i> reported in April 2016 that Chami said the mysterious ruins could date back to the time of the Roman Empire — and might even be the ancient city of Rhapta.<br></p>
+<p>“It wouldn’t surprise me if it is a Roman structure. Rhapta was in this area without a doubt,” said Chami. Evidence of Roman-era activity has already been found both in the Rufiji Delta and on Mafia Island, the <i>Dar Post</i> said.</p>
+<p>Chami told me: “Ptolemy put Rhapta at 8 degrees latitude, which is Mafia and the Rufiji Delta. He also mentions one of the islands of Azania as Mafiaco, which is probably Mafia. He noted that people at Rhapta were known as Rafiji, which is very close to the Rufiji people today known as Warufiji.”</p>
+<p> Assuming Sutton’s discovery is the ruin of Rhapta, his account is one of just two first-hand accounts, the other coming from the <i>Periplus</i> captain: “Very big-bodied men, tillers of the soil, inhabit the region; these behave, each in his own place, just like chiefs.</p>
+<p>“The principal imports into these ports of trade are: spears from Muza [a port in now Yemen] of local workmanship; axes; knives; small awls; numerous types of glass stones … the area exports: a great amount of ivory but inferior to that from Andulis [a port on the Egyptian side of the Red Sea]; rhinoceros horn; best-quality tortoise shell after the Indian; a little nautilus shell.”</p>
+<p>I wanted to visit the site, to reflect on an African narrative quite different to one taught to me at school in which nothing happened until the Portuguese showed up about 500 years ago.</p>
+<p>In passing, it is worth reflecting on what Africa meant 2 000 years ago. Casson writes: “The term Africa here has a rather special meaning. Used politically, it was the name of the province that the Romans fashioned from the conquered Carthaginians territory.</p>
+<p>“Used geographically, it often referred to the northern coast of Africa westward of Egypt, and sometimes, as today, to the whole continent, although that was ordinarily called Libya.”</p>
+<p>I wanted to better understand the captain and his 66-paragraph periplus. My reading of the <i>Periplus</i> revealed a thoroughly modern person. Although his world was one of multiple gods, and the maps of explorers more than a millenia and a half later would chronicle a here-be-dragons world, his account is one of a rational man looking to do business.</p>
+<p>Casson writes: “Curiously, one subject he gives short shrift to is religion. Although he came from Egypt, the land par excellence of religious memorabilia, and his chief trade contacts were with India, where, in his day as in ours, religion was of great moment, he mentions but a single religious monument, the shrine of Durga near Cape Comorin.”</p>
+<p>I would, like him, sail to Mafia Island, in my case on a dhow, the vessel with iconic triangular sail that define this coast, but research told me dhow trips are now pretty much localised.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~20171208145-1518089672-68.jpg,scale~800x0~20171208145-1518089672-68.jpg,scale~400x0~20171208145-1518089672-68.jpg" contenteditable="false" atavist-block="true" block_id="1987412" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"20171208145-1518089672-68.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":5312,"path":"20171208145-1518089672-68.jpg","temp_path":null}' the_caption='A &lt;i style=""&gt;mtwumbi&lt;/i&gt;, or dugout, with sail. (Image: Kevin Davie)'></atavist-simple-image><p>I instead flew in to Dar es Salaam with my bicycle equipped with tent and kit. If I could hitch a lift by dhow, fine. Failing this, I would ride, taking in the Swahili coast and its people.<br></p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3451073 chapter-type-text " id="chapter-3451073" data-chapter_type="0" data-chapter_id="3451073" data-chapter_url="https://mailandguardian.atavist.com/finding-rhapta#chapter-3451073" data-title="">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"","subtitle":"","byline":""}'><div data-cover="true" is="cover-text-simple"></div></div>  										  							
+  							
+  										<atavist-simple-slideshow class="slideshow-slide-effect atavist-simple-slideshow atavist-shared atavist-block atavist-block-align-right" data-assets="" contenteditable="false" atavist-block="true" block_id="2017636" block_type="atavist-simple-slideshow" slides='[{"slide_title":"&lt;p&gt;\n\n&lt;!--StartFragment--&gt;Rhapta means sewn, a reference to the fact that the wooden planks of the boats in use in the area, mtepe in Swahili, were held together by coir rope, rather than nails. The sewn boat above is in the House of Wonders, Stone Town, Zanzibar. (Image: Kevin Davie)&lt;!--EndFragment--&gt;&lt;/p&gt;","n":0,"slide_image":{"filename":"whatsappima-1519210462-48.jpg","progress":0,"width":720,"height":1280,"path":"whatsappima-1519210462-48.jpg","temp_path":null,"focal_point":{"x":50,"y":50}}},{"n":1,"slide_image":{"filename":"20171213094-1519210495-70.jpg","progress":0,"width":2988,"height":5312,"path":"20171213094-1519210495-70.jpg","temp_path":null,"focal_point":{"x":50,"y":50}},"slide_title":"&lt;p&gt;(Image: Kevin Davie)&lt;!--EndFragment--&gt;&lt;/p&gt;"}]' effect="slide" data-alignment="right"></atavist-simple-slideshow><p style="">We don’t have a name for our merchant but he would start his journey at Berenice on the Red Sea, it being one of two ports, the other Myos Hormos [Mussel Harbour], where goods were transferred across the desert to and from the Nile.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-right" data-assets="scale~1200x0~20171209144-1518089957-69.jpg,scale~800x0~20171209144-1518089957-69.jpg,scale~400x0~20171209144-1518089957-69.jpg" contenteditable="false" atavist-block="true" block_id="1987424" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"20171209144-1518089957-69.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":2988,"path":"20171209144-1518089957-69.jpg","temp_path":null}' the_caption="Boat-building tools include similar tools and methods used in ancient Egypt, where a bow is used to turn the drill.&amp;nbsp;(Image: Kevin Davie)" data-alignment="right"></atavist-simple-image><p style="">I made my way down the coast, noticing some secondary roads are not on Google Maps, my only navigating tool. At an overgrown, almost disused lodge with just a single chalet standing and monkeys having taken charge, I was told of a captain, Yambiyambi, at the next village, Buunyi, who could take me to Mafia. Buunyi was also not on the map.</p>
+<p style="">As I rode the next day, I found myself repeating: I am riding to Buunyi, a place not on the map, to meet a man called Yambiyambi who will take me to Mafia Island.</p>
+<p style="">Ten kilometres later I was at Buunyi. The dirt road ran through a line of makeshift shops. A plantation of soaring coconut trees stood between the shops and the shore, which hosted a set of high-and-dry fishing boats.</p>
+<p style="">Two men were cooking breakfast at one well-aged boat propped up with poles on either side to stop it falling over. A few dry fronds provided a little cover. The men had no interest in me and didn’t want to be photographed.</p>
+<p style="">I asked for Yambiyambi. No one knew him or had heard of him. This got to be a joke; some of the fishermen started calling me Yambiyambi.</p>
+<p style="">A group of men were fixing boats using an mattock and a hand drill, where a bow (of a bow and arrow) makes a drilling action much like some hunter-gatherers made fire. I was later to read in <i>Ships Fastenings: From Sewn Boat to Steamship</i> by Michael McCarthy that this drilling technique was used in ancient Egypt and is described in book IX of Homer’s <i>Odyssey</i>.</p>
+<p style="">The fishermen spoke as little English as I do Swahili. But one captain could take me; the trip would last 10 hours. The asking price did not seem unfair but was beyond the cash I had on me and I was not sure I’d be able to get more on Mafia Island.<br></p>
+<p style="">I was also a little unnerved, not that I doubted their seamanship but because whenever they spoke of Mafia, they pointed east into the middle of the ocean. I was expecting them to indicate south.</p>
+<p style="">I rode on.</p>
+<p style="">After a while I joined the main, tarred road, instantly understanding why there is little to no dhow transport. I turned off the main road and headed towards Nyumatsi, also not on Google Maps, where the ferry leaves for Mafia.</p>
+<p style="">I arrived at Nyumatsi at about 6pm, to learn the ferry would leave at 9pm or 10pm. I ate, booked a seat for myself and a space for my bike, and waited. The women, brightly adorned, sat together on a canvas with their luggage. The men waited elsewhere.</p>
+<p style="">There was no sign of the ferry. After some time I looked at my watch. It was 1.30am. We left at 4am, all seating and sleeping space taken. There was half a space in front of me: a woman curled into it. We arrived at 8am.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~20171206071-1518091119-78.jpg,scale~800x0~20171206071-1518091119-78.jpg,scale~400x0~20171206071-1518091119-78.jpg" contenteditable="false" atavist-block="true" block_id="1987447" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"20171206071-1518091119-78.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":5312,"path":"20171206071-1518091119-78.jpg","temp_path":null}' the_caption="On the trail of&amp;nbsp;Rhapta, the writer boarded the crowded ferry for Mafia Island, which leaves from Nyumatsi. There was just enough room for his bicycle.(Image: Kevin Davie)"></atavist-simple-image><p>The next day I rode on the main road, fortunately dirt, the navigation backbone across the island, to Jimbo and then backtracked to Jojo, the closest village to the underwater ruin.</p>
+<p style="">The road ended at a school. A meeting of the school board, I guess, was taking place under a tree. I told them why I was there and asked whether I could pitch my tent. I would have to get permission from the village president; in the meantime I was invited for lunch.</p>
+<p style="">Presently the president arrived. I would need authorisation from two other presidents; a regional and district one, as I understood it. The nearest lodge was 20km away. I was where I needed to be, so near, yet really far.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~20171207122-1518091182-83.jpg,scale~800x0~20171207122-1518091182-83.jpg,scale~400x0~20171207122-1518091182-83.jpg" contenteditable="false" atavist-block="true" block_id="1987448" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"20171207122-1518091182-83.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":5312,"path":"20171207122-1518091182-83.jpg","temp_path":null}' the_caption="At Jimbo, on the way to Jojo, Mafia Island. (Image: Kevin Davie)"></atavist-simple-image><p style="">I retraced my route, passing fishermen’s homes on the ocean, with the submerged site just a few kilometres away, but there were no English speakers. I rode to the next village, Banga, stopping at a clinic. The medic in charge took me to the village square where a carpenter phoned its village president. He arrived soon after, on the carrier of a bicycle. A jovial man, he had a warm handshake.</p>
+<p style="">A serious conversation followed about the <i>mgeni</i> (foreigner). I thought it would be another no, but I was invited to stay in the hospital — actually the staff quarters for the clinic. A room was made up for me.</p>
+<p style="">I realised, riding back the next day, I did not see a single policeman or police station on the island. The villages control law and order. If someone is attacked in their area, and given the friendliness of Tanzanians I’d say this is extremely unlikely, the village is responsible. But once you have the permission of the president, you have the protection of the village.</p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3451075 chapter-type-text " id="chapter-3451075" data-chapter_type="0" data-chapter_id="3451075" data-chapter_url="https://mailandguardian.atavist.com/finding-rhapta#chapter-3451075" data-title="">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"","subtitle":"","byline":""}'><div data-cover="true" is="cover-text-simple"></div></div>  										  							
+  							
+  										<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~20171209142-1518091705-72.jpg,scale~800x0~20171209142-1518091705-72.jpg,scale~400x0~20171209142-1518091705-72.jpg" contenteditable="false" atavist-block="true" block_id="1987460" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"20171209142-1518091705-72.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":5312,"path":"20171209142-1518091705-72.jpg","temp_path":null}' the_caption="Food from the sea - fresh and dried - is&amp;nbsp;an important part of people’s diet and source of income. (Image: Kevin Davie)"></atavist-simple-image><p>On the way to Banga I had found an English speaker, a bodaboda operator. These are the ubiquitous motorbikes that transport people and carry goods. His brother could take me by mtumbwi, dugout canoe, to the site.<br></p>
+<p>But alas, when I returned the next day he was in a taxi heading to the other side of the island. Against all kinds of noise on the line and in the taxi I could only make out three words: “Wait one hour.”</p>
+<p>It poured, me watching the rain fall and wondering whether I would ever get to the submerged site. But phone calls were being made and a plan seemed to be coming together. We’d walk a few kilometres where we’d meet men in a mtumbwi who’d pilot me to the site. A fee was agreed, plus bottles of water and biscuits.</p>
+<p>We passed through coconut trees to the shore where, sure enough, a mtumbwi with two men made their way towards us. I was loaded into the dugout. You have to sit pretty still to avoid lowering the one side or the other. Either way, though, water comes in. The pilot in the back does a lot of bailing.</p>
+<p>We headed towards Ras Mlundo, a spit of beach that sticks out, tongue-like, with a notable estuary behind it. The tide was going out. We beached. I could see no ruin, no reef, nothing.</p>
+<p>But then, in the near horizon was what looked like a line of dhows, their sails stretched in the wind. It was breakers, crashing on to the northern wall of the ruin. I could instantly see the extent of it, the line running for several kilometres.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-left" data-assets="scale~1200x0~20171207173-1518090407-50.jpg,scale~800x0~20171207173-1518090407-50.jpg,scale~400x0~20171207173-1518090407-50.jpg" contenteditable="false" atavist-block="true" block_id="1987431" block_type="atavist-simple-image" data-alignment="left" audio_color_scheme="white" the_image='{"filename":"20171207173-1518090407-50.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":2988,"path":"20171207173-1518090407-50.jpg","temp_path":null}' the_caption="Cleaning and drying the catch, Jojo village, Mafia Island (Image: Kevin Davie)"></atavist-simple-image><p>The pilots had made themselves comfortable on the beach. I walked a couple of kilometres out, the tide falling all the time. But as I neared the breakers I could see I’d have to swim another kilometre or so to reach it; not a good idea. What to do?</p>
+<p>After a while the pilots launched the dugout, now using a sail rather than paddles. They picked me up. I pointed at the breaking waves and we headed towards them, getting pretty close, perhaps 50m or so, when turbulent water suggested getting closer would not be a good idea. We headed back.</p>
+<p>I had been to the site but it did not feel quite satisfactory. Perhaps I needed to actually touch it?</p>
+<p>My plan was to leave the next day but the ferry was full. At the Whale Shark Lodge I met Hassan Bakari, who knows all things Mafia. He also knew Sutton and the Swahili name for the ruin: mwamba ukutu, wall rock, a favourite fishing spot for locals, the ruin acting as a reef.</p>
+<p>Hassan arranged for a motorboat to take me and two visitors from Canada, Mads and Amanda, to the site. We shouldn’t expect too much, he said, because it was neap, not spring tide.</p>
+<p>We arrived at about 4pm when the tide was lowest, a line of breakers cresting the reef. Mads lent me a goggle and snorkel and we us jumped in, making our way to the rocks. Getting on was not too much trouble but the breakers threatened to wash us off. The rocks were encrusted with razor-sharp barnacles: a slip would have have produced blood.</p>
+<p>The Periplus captain speaks of Rhapta as a port, a trading place. About 100 years later Ptolemy described it as a metropolis. This period falls within the Pax Romana, the 200-year highpoint of the Roman Empire. It is documented that there was very little Roman trade with the east via the Indian Ocean before CE 20. But it flourished after this; a market of 56-million people, one-quarter of the globe, clamoured for the best of what Asia, Africa and Arabia could offer.</p>
+<p>But, says Casson, even at the time of the <i>Periplus</i> Rhapta must have been of considerable size if it accommodated, as Zanzibar did in later centuries, vessels and their crews while they awaited the shift of the monsoon.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~20171211105-1518090590-44.jpg,scale~800x0~20171211105-1518090590-44.jpg,scale~400x0~20171211105-1518090590-44.jpg" contenteditable="false" atavist-block="true" block_id="1987432" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"20171211105-1518090590-44.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":5312,"path":"20171211105-1518090590-44.jpg","temp_path":null}' the_caption="Rhapta, says Lionel Casson, who studied the sea captain’s Periplus, was about 185km from&amp;nbsp;Menuthias, which could have been Pemba or Zanzibar island. This would put&amp;nbsp;Rhapta&amp;nbsp;either near today’s Dar es Salaam or at the mouth of the Rufiji River, opposite Mafia Island. (Image: Kevin Davie)"></atavist-simple-image><p>After Raptha, the merchant captain recorded: “For, beyond this area lies unexplored ocean that bend to the west and, extending on the south along the parts of Ethiopia and Libya and Africa that turn away, joins the western sea.”<br></p>
+<p>Slave trading is mentioned only three times in the <i>Periplus</i> but this is not to say that slavery was insignificant at the time. British historian Caitlin Green has shown in a paper, Sub-Saharan and Trans-Saharan Contacts and Trade in the Roman Era, that its principal trade with sub-Saharan Africa between the first and seventh centuries was in slaves, who were trafficked across the Sahara desert.</p>
+<p>Colonisation was well underway at the time of the <i>Periplus</i>. “The region is under the rule of the governor of Mapharitis since by some ancient right it is subject to the kingdom of Arabia as first constituted. The merchants of Muza hold it through a grant from the king and collect taxes from it,” the captain tells us.</p>
+<p>Mapharitis was a province in the ancient kingdom of Sabaeans and Homerites, in today’s Yemen, the Sabaeans being described in Assyrian times as early as 2 800 years ago. The Sabaeans paid “many embassies and gifts” to the Roman emperor, the <i>Periplus</i> tells us.</p>
+<p>Is Sutton’s discovery Rhapta? He arranged funding for two of Chami’s PhD students who have started research mainly on the submerged site and vicinity. “The purpose is to find other materials such as artefacts of the Roman period,” Chami told me. “Initial survey of the submerged site suggests that underwater archeology is required to explore below the sand.”</p>
+<p> But whether or not this is Rhapta, what happened to this site now under the sea? There is not in a single account of it after the <i>Periplus</i> and Ptolemy. It was a metropolis; then it was nothing.</p>
+<p>When accounts begin again, such as one by Ibn Battuta, a Moroccan traveller who reached this part of the African coast in 1330, the trading centre of this region has moved about 100km south to Kilwa, which was a centre for gold trading. Rhapta was not mentioned.</p>
+<p>  <i>*Rhapta was misspelled as Raphta in earlier versions of this story. Apologies.</i></p>
+<h3><b>The <i>Periplus of the Erythraean Sea</i> is part of SA/African nonfiction narratives, a course Kevin Davie teaches at Wits Journalism, University of the Witwatersrand</b></h3>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  									  							
+  							</section>  					  				    			</article>    			  				  					<footer is="atavist-footer"></footer>  						    			<div is="nav-story-title" class="nav-story-title"><a href="https://mailandguardian.atavist.com/finding-rhapta#chapter-cover">Finding Rhapta</a></div>  			<ol is="nav-chapter-list" class="nav-chapter-list">	  				  					<li><a href="http://atavist.mg.co.za/finding-rhapta#chapter-3451038">Section 1</a></li>  				  					<li><a href="http://atavist.mg.co.za/finding-rhapta#chapter-3451061">Section 2</a></li>  				  					<li><a href="http://atavist.mg.co.za/finding-rhapta#chapter-3451067">Section 3</a></li>  				  					<li><a href="http://atavist.mg.co.za/finding-rhapta#chapter-3451073">Section 4</a></li>  				  					<li><a href="http://atavist.mg.co.za/finding-rhapta#chapter-3451075">Section 5</a></li>  				  			</ol>    			<story-icons class="story-icons">  					<a class="white-label-logo-link" href="https://mg.co.za" target="_self"><img class="white-label-logo" src="cropandscale~64x64~smalllogoc-1540464558-98.jpg"></a>
+
+  				  							<a class="template-icon facebook-share-link " href="http://www.facebook.com/share.php?s=100&amp;p%5Burl%5D=http://atavist.mg.co.za/finding-rhapta&amp;p%5Btitle%5D=Finding+Rhapta&amp;p%5Bimages%5D%5B0%5D=http://atavist.mg.co.za/data/files/organization/222157/image/share_image/public/graphicrhap-1519212727-60.jpg&amp;u=http://atavist.mg.co.za/finding-rhapta" target="_blank">
+		<svg width="25px" height="25px" viewbox="0 0 17 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+		    <g id="facebook-logo-svg" sketch:type="MSPage">
+		        <g sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+		            <g id="Layer_3" sketch:type="MSShapeGroup">
+		                <path d="M9.97434501,32 L3.32300153,32 L3.32300153,15.998751 L0,15.998751 L0,10.4844168 L3.32300153,10.4844168 L3.32300153,7.17363049 C3.32300153,2.67504537 5.1993759,0 10.5303776,0 L14.9685857,0 L14.9685857,5.51495872 L12.1943915,5.51495872 C10.1191648,5.51495872 9.98188444,6.28559162 9.98188444,7.72381491 L9.97434501,10.4837923 L15,10.4837923 L14.4119249,15.9981265 L9.97434501,15.9981265 L9.97434501,32 L9.97434501,32 Z"></path>
+		            </g>
+		        </g>
+		    </g>
+		</svg>	</a>
+  				<a class="template-icon twitter-share-link " href="http://twitter.com/share?url=http://atavist.mg.co.za/finding-rhapta&amp;text=Forgotten%20by%20history%2C%20the%20ancient%20city%20of%20Rhapta%20is%20among%20Africa%E2%80%99s%20most%20enduring%20archaeological%20mysteries." target="_blank">
+	<svg width="25px" height="25px" viewbox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+	    <g id="twitter-logo-svg" sketch:type="MSPage">
+	        <path d="M6.8468546,14.7778595 C7.13946884,14.8327653 7.44091602,14.8614382 7.74883743,14.8614382 C8.2909681,14.8614382 8.81303016,14.7725592 9.30214818,14.6081195 C6.90444045,14.2162782 5.07109641,12.0688801 5.07109641,9.47855443 C5.07109641,9.43838048 5.07153739,9.39831307 5.07241463,9.35835709 C5.78236361,9.7753633 6.60022535,10.0185403 7.47190902,10.031937 C6.03182993,9.11895802 5.07109641,7.47592616 5.07109641,5.60078546 C5.07109641,4.62721468 5.33007883,3.71621287 5.78066907,2.93747181 C8.33384413,6.09612415 12.0795876,8.1878691 16.3018208,8.47200394 C16.2244714,8.10468695 16.1837217,7.72323211 16.1837217,7.33193232 C16.1837217,4.38718727 18.4915376,2 21.3383731,2 C22.8256703,2 24.1658463,2.65156426 25.1066785,3.69379565 C26.274058,3.50197432 27.3590439,3.05429504 28.3062418,2.4080574 C27.9568348,3.6419808 27.1616641,4.67891429 26.1133073,5.31965762 C27.1395036,5.22094012 28.1090422,4.93263316 29,4.49988345 C28.3617362,5.58037564 27.5043698,6.50729073 26.4917998,7.21453212 C26.4926149,7.25356366 26.4930246,7.29269851 26.4930246,7.33193232 C26.4930246,7.43596944 26.4908563,7.83926449 26.4908563,7.93902234 C26.4908563,16.256971 19.9720256,23 11.9306395,23 C9.00545271,23 6.28173966,22.1077215 4,20.5719356 C4.40556308,20.6206158 4.8180998,20.6456403 5.23628697,20.6456403 C7.65860758,20.6456403 9.89134296,19.8060132 11.6773301,18.3927665 C9.39066593,18.3929778 7.49265825,16.8744086 6.8468546,14.7778595 Z" sketch:type="MSShapeGroup"></path>
+	    </g>
+	</svg></a>
+  				  				  			</story-icons>    			    		</div>
+<!-- navver -->  	</div>
+<!-- .story-wrapper -->    </body>  <script type="text/javascript">var prerendered = {
+  "story_id": "1870985",
+  "product_id": "5a7c3232115f4",
+  "organization_id": "222157",
+  "published": "1",
+  "soundtrack_autoplay": 0,
+  "soundtrack_loop": 0,
+  "tid": "vanilla",
+  "environment": "web",
+  "api_prefix": "",
+  "allowed_via": "free",
+  "pub_cookie_name": "at_pub222157",
+  "cms2": true,
+  "isPublishedVersion": true,
+  "tracksChapters": false,
+  "meterEnabled": false,
+  "meter_total": 0,
+  "access": true,
+  "accessVia": "free",
+  "tags": [
+
+  ],
+  "preset_tags": [
+
+  ],
+  "protected_tags": [
+    "Featured"
+  ],
+  "description": "Forgotten by history, the ancient city of Rhapta is among Africa&rsquo;s most enduring archaeological mysteries.",
+  "device": "ipad",
+  "id": "1870985",
+  "isbn": "",
+  "title": "Finding Rhapta",
+  "author_id": "",
+  "subtitle": "Kevin Davie goes on a journey to find a Roman-era city off the East African coast, using a captain’s log written 2 000 years ago.",
+  "title_page": "download2-1518089361-7.jpg",
+  "title_page_landscape": "",
+  "title_page_iphone": "",
+  "lastUpdate": "1545512701",
+  "lastPublish": "1544512150",
+  "status": "1",
+  "soundtrack_id": "0",
+  "twitter_text": "Forgotten by history, the ancient city of Rhapta is among Africa’s most enduring archaeological mysteries.",
+  "facebook_text": "Forgotten by history, the ancient city of Rhapta is among Africa’s most enduring archaeological mysteries.",
+  "story_link": "",
+  "facebook_image": "graphicrhap-1519212727-60.jpg",
+  "for_sale": "4",
+  "minimum_version": "1.0",
+  "story_type": "0",
+  "exclude_subscriptions": "",
+  "created": "1518088754",
+  "device_specific_options": "",
+  "createdBy": "280287",
+  "pub_date": "1518091901",
+  "price_credits": "0",
+  "availability": "10",
+  "slug": "finding-rhapta",
+  "use_profile_for_byline": 0,
+  "story_template": "vanilla",
+  "story_theme": "thurber",
+  "cover_type": "cover-basic",
+  "byline_picker": "{\"authors\":[],\"publication\":{\"id\":\"user-280287\",\"profile_name\":\"Mail & Guardian\",\"avatar\":\"https://atavist.com/data/files/organization/222157/image/derivative/cropandscale~150x150~smalllogoc-1501763525-76.jpg\",\"is_publication\":false,\"type\":\"user\",\"url\":\"https://mailguardian.atavist.com\",\"is_atavist\":true,\"has_avatar\":true}}",
+  "byline": "",
+  "last_cache": 1530695889,
+  "publish_web": 1,
+  "commerce": 0,
+  "wv_availability": 2,
+  "fbia_development_import_status_id": "774418202747793",
+  "facebook_publish_error": "(#200) Requires pages_manage_instant_articles permission to manage the object",
+  "publish_apps": 1,
+  "facebook_enable": 1,
+  "twitter_enable": 1,
+  "social_title": "Finding Rhapta",
+  "facebook_author_url": "",
+  "story_link_enable": 0,
+  "url": "http://atavist.mg.co.za/finding-rhapta",
+  "now": 1545512706,
+  "has_1url": 0,
+  "best_image_wide": "download2-1518089361-7.jpg",
+  "story_best_image_wide": "download2-1518089361-7.jpg",
+  "best_image_tall": "download2-1518089361-7.jpg",
+  "suppress_jacket_web": 0,
+  "access_override": "free",
+  "facebook_url": "http://atavist.mg.co.za/finding-rhapta",
+  "web_root": "",
+  "route_type": "story",
+  "hash": "606a44982d44f",
+  "collections_url": "http://atavist.mg.co.za",
+  "domain": "",
+  "theme": "thurber",
+  "pagination": "Scroll",
+  "navigation_option": "None",
+  "pop-up_style": "Overlay",
+  "paragraph_spacing": "Spaces",
+  "drop_caps": "Drop",
+  "hyphenate": "Drawer",
+  "map_style": "basic",
+  "asset_domain": "",
+  "cloudfront_prefix": "",
+  "chapters": [
+    {
+      "id": 0,
+      "url": "https://mailandguardian.atavist.com/finding-rhapta#chapter-cover",
+      "hash": "story-cover",
+      "title": "",
+      "included": true
+    },
+    {
+      "id": 3451038,
+      "hash": "chapter-3451038",
+      "url": "http://atavist.mg.co.za/finding-rhapta#chapter-3451038",
+      "title": "",
+      "included": true
+    },
+    {
+      "id": 3451061,
+      "hash": "chapter-3451061",
+      "url": "http://atavist.mg.co.za/finding-rhapta#chapter-3451061",
+      "title": "",
+      "included": true
+    },
+    {
+      "id": 3451067,
+      "hash": "chapter-3451067",
+      "url": "http://atavist.mg.co.za/finding-rhapta#chapter-3451067",
+      "title": "",
+      "included": true
+    },
+    {
+      "id": 3451073,
+      "hash": "chapter-3451073",
+      "url": "http://atavist.mg.co.za/finding-rhapta#chapter-3451073",
+      "title": "",
+      "included": true
+    },
+    {
+      "id": 3451075,
+      "hash": "chapter-3451075",
+      "url": "http://atavist.mg.co.za/finding-rhapta#chapter-3451075",
+      "title": "",
+      "included": true
+    }
+  ],
+  "twitter_link": "http://twitter.com/share?url=http://atavist.mg.co.za/finding-rhapta&text=Forgotten%20by%20history%2C%20the%20ancient%20city%20of%20Rhapta%20is%20among%20Africa%E2%80%99s%20most%20enduring%20archaeological%20mysteries.",
+  "facebook_link": "http://www.facebook.com/share.php?s=100&p[url]=http://atavist.mg.co.za/finding-rhapta&p[title]=Finding+Rhapta&p[images][0]=http://atavist.mg.co.za/data/files/organization/222157/image/share_image/public/graphicrhap-1519212727-60.jpg&u=http://atavist.mg.co.za/finding-rhapta",
+  "categories": {
+  },
+  "is_subscriber": false,
+  "logged_in": false
+}</script>
+<script type="text/javascript" src="script.js?bump&amp;1545512709"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+	_gaq.push(
+	  ['_setAccount', 'UA-116532-3'],
+	  ['_trackPageview'],
+	  ['b._setAccount', 'UA-40296216-5'],
+	  ['b._setCustomVar', 3, 'org_identifier', 'atavist-222157-19ce6fee9a3d', 3],
+	  ['b._setCustomVar', 4, 'story_identifier', 'atavist-222157-1870985-19ce6fee9a3d', 3],
+	  ['b._trackPageview']
+	);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</html>

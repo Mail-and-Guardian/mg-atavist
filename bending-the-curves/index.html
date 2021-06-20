@@ -1,0 +1,711 @@
+<html lang="en" dir="ltr" class="web theme-thurber">  <head>
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><html class="no-js"><![endif]-->
+<!-- Begin Template: vanilla -->
+<title>Bending the curves</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="Description" content="">
+<meta property="og:rich_attachment" content="true">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Manning up to an epidemic">
+<meta property="og:description" content="In South Africa, as in many other countries, men test for HIV at lower rates than women.">
+<meta property="og:url" content="http://atavist.mg.co.za/bending-the-curves">
+<meta property="og:site_name" content="Mail &amp; Guardian">
+<meta property="fb:app_id" content="818399188279985">
+<meta property="fb:pages" content="161428670566653">
+<meta property="article:publisher" content="https://www.facebook.com/MailGuardian/">
+<meta property="article:author" content="https://www.facebook.com/MailGuardian/">
+<meta property="article:published_time" content="2017-12-15T05:44:06-0500">
+<meta property="article:modified_time" content="2018-12-10T05:28:18-0500">
+<meta property="og:updated_time" content="1544437698">
+<meta property="og:image" content="scale~1200x1200~mensclinic1-1513334593-44.jpg">
+<meta name="twitter:image" content="scale~1200x1200~mensclinic1-1513334593-44.jpg?1544437698">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@mailandguardian">
+<meta name="twitter:title" content="Manning up to an epidemic">
+<meta name="twitter:description" content="In South Africa, as in many other countries, men test for HIV at lower rates than women.">
+<link rel="canonical" href="http://atavist.mg.co.za/bending-the-curves">
+<link href="style.css?bump&amp;1544437760" rel="stylesheet" type="text/css">
+<dom-module id="navigation-none">
+<template>
+<div class="nav-icons vertical-nav-icons">
+	<content select=".story-icons"></content>
+</div>
+<content select="article"></content>
+<content select='footer[is="atavist-footer"]'></content>
+</template>
+</dom-module>
+
+<dom-module id="atavist-image">
+<template>
+	<img alt="{{title}}" title="{{title}}" draggable="false">
+	<div class="uploader-input uploader-progress progress" style="display:none;">
+		<div class="progress-bar" role="progressbar" style="width:0%;"></div>
+	</div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-audio">
+<template>
+	<div class="player-chrome">
+		<div class="play-pause-control">
+			<div class="duration-indicator">
+				<span class="progress-display"></span>
+			</div>
+
+			<div class="play-pause-button">
+				<div class="play-button">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="17.5 17.5 65 65" enable-background="new 17.5 17.5 65 65" xml:space="preserve" stroke-width="1">
+						<circle fill="none" stroke-miterlimit="10" cx="50" cy="50" r="27.5"></circle>
+						<polygon stroke-miterlimit="10" points="45.087,40.863 60.912,50 45.087,59.137 "></polygon>
+					</svg>
+				</div>
+				<div class="pause-button">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 65 65" enable-background="new 0 0 65 65" xml:space="preserve" stroke-width="1">
+						<circle fill="none" stroke-miterlimit="10" cx="32.5" cy="32.5" r="27.5"></circle>
+						<g>
+							<rect x="27.515" y="23.363" width="1" height="18.273"></rect>
+							<rect x="36.118" y="23.363" width="1" height="18.273"></rect>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<div class="duration-indicator">
+				<span class="remaining-display"></span>
+			</div>
+		</div>
+		<div class="scrubber-bar">
+			<div class="scrubber-progress"></div>
+		</div>
+		<div class="uploader-input uploader-progress progress" style="display:none;">
+			<div class="progress-bar" role="progressbar" style="width:0%;"></div>
+		</div>
+	</div>
+	<audio></audio>
+</template>
+</dom-module>
+
+<dom-module id="atavist-video">
+<template>
+	<video></video>
+	<div class="uploader-input uploader-progress progress regular-progress" style="display:none;">
+		<div class="progress-bar regular-progress-bar" role="progressbar" style="width:0%;"></div>
+		<div class="progress-bar video-progress-bar" role="progressbar" style="width:0%;"></div>
+	</div>
+</template>
+</dom-module>
+
+
+
+<dom-module id="atavist-video-embed">
+<template>
+	<iframe></iframe>
+</template>
+</dom-module>
+
+
+
+<dom-module id="atavist-multi-video">
+<template>
+</template>
+</dom-module>
+
+
+
+
+<dom-module id="atavist-background-image-with-shim">
+<template>
+	<atavist-image use_as_background="true"></atavist-image>
+	<div class="atavist-background-image-with-shim-shim"></div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-background-video-with-shim">
+<template>
+	<atavist-video loop muted></atavist-video>
+	<div class="atavist-background-video-with-shim-shim"></div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-dfp">
+<template>
+	<div class="atavist-dfp-wrapper"></div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-logo">
+<template>
+	<div class="paperclip-logo">
+	<div class="paperclip-logo-static-background"></div>	
+	<svg viewbox="1 0 23 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	    <g fill="currentColor">
+	        <path d="M23.7269687,20.9285955 C23.7130074,20.8897493 22.13937,16.7967794 19.9580838,11.2403697 L18.1504285,12.0420126 C20.3310499,17.5963035 21.9046873,21.6871545 21.9179838,21.7245881 C22.3946623,23.0340559 22.2417528,23.8484121 21.445959,24.2015588 C20.6109406,24.5716565 19.9966436,24.1055029 19.4568069,22.8165176 C19.433538,22.7614267 14.4333999,9.950678 14.410131,9.892762 C13.9873032,8.8149583 13.7459723,7.8480428 14.108966,6.348582 C14.2758367,5.8329879 14.4340647,5.3463517 14.5344531,5.036289 C14.5663646,4.9557715 14.5876389,4.8851422 14.6215449,4.8017996 L14.6109078,4.8025059 C14.628858,4.7460024 14.6421545,4.7043311 14.6421545,4.7043311 C15.2850389,2.698458 14.6687474,1.07398331 12.6855787,0.28929141 C10.7502772,-0.47633058 9.1367504,0.30412357 8.3795163,2.3177659 C8.358242,2.3756819 1.2951562,21.172973 1.2752115,21.2301827 C0.59842112,23.2000348 1.1482302,24.8287473 3.165305,25.6847748 C5.0514095,26.4842989 6.6110856,25.7257398 7.3962423,23.8307548 C7.4115332,23.792615 9.5103812,18.2566877 11.6112238,12.6663759 L9.7922664,11.8943973 C7.6914239,17.4840028 5.5939055,23.0178112 5.5792794,23.0545384 C5.0573929,24.3442301 4.4111844,24.8125025 3.6107368,24.4727754 C2.7703998,24.1168036 2.6387647,23.3271676 3.1021467,22.0049865 C3.1220914,21.9477768 10.1851772,3.151192 10.2071164,3.0925697 C10.73964,1.67503894 11.4131063,1.15520704 12.2561026,1.4885775 C12.9634749,1.76826967 13.2360526,2.6377168 12.8052469,3.981793 C12.7979339,4.0051007 12.6662988,4.4684291 12.4980984,5.0603029 C12.0932209,6.1684772 11.934328,7.184127 11.9489541,7.8741756 C11.9655747,8.6595738 12.3152719,10.0650976 12.469511,10.4062372 C12.5014225,10.4761603 17.6099269,23.5468249 17.6411737,23.6209857 C18.4555825,25.5315092 19.9208537,26.2865368 21.9252968,25.3980197 C23.8000993,24.5674188 24.4143963,22.8659581 23.7269687,20.9285955 L23.7269687,20.9285955 Z"></path>
+	    </g>
+	</svg>	
+</div>
+</template>
+</dom-module>
+
+<dom-module id="atavist-promo-frame">
+<template>
+	<div class="paperclip-logo-background-wrapper">
+		<div class="paperclip-logo-background do-not-animate"></div>
+	</div>
+	<div class="iframe-wrapper">
+		<iframe scrolling="no" frameborder="no"></iframe>
+		<div class="touch-close"></div>
+	</div>	
+</template>
+</dom-module>
+
+<dom-module id="atavist-footer">
+<template>
+	<a href="https://atavist.com/signup" class="atavist-footer-wrapper atavist-cover-left-gutter-padding-left atavist-cover-right-gutter-padding-right">
+		<div class="text">
+			<svg viewbox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <g fill="currentColor" fill-rule="evenodd">
+			        <path d="M21.5,43 C33.3741221,43 43,33.3741221 43,21.5 C43,9.62587788 33.3741221,0 21.5,0 C9.62587788,0 0,9.62587788 0,21.5 C0,33.3741221 9.62587788,43 21.5,43 Z M32.7269687,28.9285955 C32.7130074,28.8897493 31.13937,24.7967794 28.9580838,19.2403697 L27.1504285,20.0420126 C29.3310499,25.5963035 30.9046873,29.6871545 30.9179838,29.7245881 C31.3946623,31.0340559 31.2417528,31.8484121 30.445959,32.2015588 C29.6109406,32.5716565 28.9966436,32.1055029 28.4568069,30.8165176 C28.433538,30.7614267 23.4333999,17.950678 23.410131,17.892762 C22.9873032,16.8149583 22.7459723,15.8480428 23.108966,14.348582 C23.2758367,13.8329879 23.4340647,13.3463517 23.5344531,13.036289 C23.5663646,12.9557715 23.5876389,12.8851422 23.6215449,12.8017996 L23.6109078,12.8025059 C23.628858,12.7460024 23.6421545,12.7043311 23.6421545,12.7043311 C24.2850389,10.698458 23.6687474,9.07398331 21.6855787,8.28929141 C19.7502772,7.52366942 18.1367504,8.30412357 17.3795163,10.3177659 C17.358242,10.3756819 10.2951562,29.172973 10.2752115,29.2301827 C9.59842112,31.2000348 10.1482302,32.8287473 12.165305,33.6847748 C14.0514095,34.4842989 15.6110856,33.7257398 16.3962423,31.8307548 C16.4115332,31.792615 18.5103812,26.2566877 20.6112238,20.6663759 L18.7922664,19.8943973 C16.6914239,25.4840028 14.5939055,31.0178112 14.5792794,31.0545384 C14.0573929,32.3442301 13.4111844,32.8125025 12.6107368,32.4727754 C11.7703998,32.1168036 11.6387647,31.3271676 12.1021467,30.0049865 C12.1220914,29.9477768 19.1851772,11.151192 19.2071164,11.0925697 C19.73964,9.67503894 20.4131063,9.15520704 21.2561026,9.4885775 C21.9634749,9.76826967 22.2360526,10.6377168 21.8052469,11.981793 C21.7979339,12.0051007 21.6662988,12.4684291 21.4980984,13.0603029 C21.0932209,14.1684772 20.934328,15.184127 20.9489541,15.8741756 C20.9655747,16.6595738 21.3152719,18.0650976 21.469511,18.4062372 C21.5014225,18.4761603 26.6099269,31.5468249 26.6411737,31.6209857 C27.4555825,33.5315092 28.9208537,34.2865368 30.9252968,33.3980197 C32.8000993,32.5674188 33.4143963,30.8659581 32.7269687,28.9285955 Z"></path>
+			    </g>
+			</svg>
+			<span>Made with Atavist. <span class="cta-text">Make your own.</span></span>
+		</div>	
+	</a>
+</template>
+</dom-module>
+
+<dom-module id="atavist-story-data-byline">
+<template>
+	<div class="atavist-byline-wrapper" data-type>
+		<template is="dom-if" if="{{authors}}">
+			<template is="dom-if" if="{{stringToBool(_author.is_atavist)}}">
+
+				<template is="dom-if" if="{{_author.has_avatar}}">
+					<a target="_self" href>
+						<div class="atavist-byline-image" data-is-publication style></div>
+					</a>
+				</template>
+
+				<div class="byline-and-publication">
+					<a class="byline-link" target="_self" href>
+						<span class="atavist-byline-name">{{_author.profile_name}}</span>
+					</a>	
+
+					<template is="dom-if" if="{{shouldShowPublication(publication)}}">
+						<div class="publication">Published in <a class="publication-link" href>{{publication.profile_name}}</a>
+</div>
+					</template>
+				</div>				
+
+			</template>
+			<template is="dom-if" if="{{!stringToBool(_author.is_atavist)}}">
+				<div class="byline-and-publication hello">
+					<span class="atavist-byline-name">{{_author.profile_name}}</span>
+					<template is="dom-if" if="{{shouldShowPublication(publication)}}">
+						<div class="publication">Published in <a class="publication-link" href>{{publication.profile_name}}</a>
+</div>
+					</template>
+				</div>
+
+			</template>
+		</template>
+	</div>
+
+</template>
+</dom-module>
+
+<dom-module id="atavist-menu">
+<template>
+	<ul class="atavist-menu-wrapper">
+		<template is="dom-repeat" items="{{items}}">
+		<li data-type data-submenu>
+			<a href target="_self">{{_labelForMenuItem(item.menu_item)}}</a>
+			<template is="dom-if" if="{{_needs_submenu(item)}}}">
+			<ul class="atavist-top-nav-container">
+				<template is="dom-repeat" items="{{_submenu(item)}}" as="submenu_item">
+				<li>
+					<a href target="_self">{{_labelForMenuItem(submenu_item)}}</a>
+				</li>
+				</template>
+			</ul>
+			</template>
+		</li>
+		</template>
+	</ul>
+</template>
+</dom-module>
+
+<dom-module id="atavist-search">
+<template>
+	<div class="search-icon">
+		<svg>
+		    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		        <g transform="translate(1.000000, 1.000000)" stroke="#000000">
+		            <g>
+		                <g transform="translate(7.000000, 7.500000) scale(-1, 1) translate(-7.000000, -7.500000) ">
+		                    <g>
+		                        <g>
+		                            <g>
+		                                <path d="M0,15 L3,12" stroke-width="3"></path>
+		                                <path d="M8,12 C11.3137085,12 14,9.3137085 14,6 C14,2.6862915 11.3137085,0 8,0 C4.6862915,0 2,2.6862915 2,6 C2,9.3137085 4.6862915,12 8,12 L8,12 Z" stroke-width="2"></path>
+		                            </g>
+		                        </g>
+		                    </g>
+		                </g>
+		            </g>
+		        </g>
+		    </g>
+		</svg>
+	</div>
+</template>
+</dom-module>
+<base target="_blank">
+<dom-module id="cover-default"><template><atavist-multi-background key="background" data_key="title_page"></atavist-multi-background>
+<div class="cover-text-outside-wrapper">
+	<div class="cover-text-inside-wrapper atavist-cover-column-width-and-alignment">
+		<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1">
+			<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…"></atavist-story-data>
+		</h1>
+		<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2">
+			<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…"></atavist-story-data>
+		</h2>
+		<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline">
+			<atavist-story-data-byline class="atavist-byline" key="the_byline" data_key="byline_picker" legacy_data_key="byline"></atavist-story-data-byline>
+		</div>
+
+	</div>	
+</div></template></dom-module>
+<dom-module id="atavist-simple-image"><template><div class="atavist-simple-image-wrapper atavist-cover-aligned-block-width-as-max-width" data-is_clickable>
+	<atavist-image key="the_image" alt="" use_as_background="false" real_size title></atavist-image>
+	<p is="atavist-caption" key="the_caption"></p>
+</div></template></dom-module>
+<dom-module id="atavist-simple-slideshow"><template><!-- Slider main container -->
+<div class="swiper-container">
+
+	<div class="atavist-slideshow-message"></div>
+	<atavist-rows class="simple-slideshow-wrapper swiper-wrapper" key="slides" minimum="1" row_classes="swiper-slide">
+		<template>
+				<div class="slide-background atavist-cover-background-color"></div>
+				<atavist-image class="slideshow-slide-image" use_as_background="true" key="slide_image"></atavist-image>
+				<p class="slideshow-slide-caption" is="atavist-caption" key="slide_title" updateable_text="1"></p>
+		</template>
+	</atavist-rows>
+
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="atavist-swiper-add">
+<i class="at-plus lg" style-scope="form-slides"></i> Add</div>
+    
+</div>
+<once-loaded run="swiper_ready">
+	<external-script url="swiper.jquery.min.js"></external-script>
+</once-loaded></template></dom-module>
+<dom-module id="cover-text-simple"><template><div class="cover-text-wrapper atavist-cover-column-width-and-alignment cover-text-on-solid-background">
+	<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1">
+		<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…"></atavist-story-data>
+	</h1>
+	<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2">
+		<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…"></atavist-story-data>
+	</h2>
+	<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline">
+		<atavist-story-data-byline class="atavist-byline" key="the_byline" data_key="byline_picker" legacy_data_key="byline"></atavist-story-data-byline>
+	</div>
+
+</div>	
+</template></dom-module>
+<dom-module id="atavist-pullquote"><template><p is="atavist-caption" key="the_pullquote" placeholder="Write a pullquote…"></p></template></dom-module>
+<dom-module id="atavist-simple-video"><template><atavist-multi-video key="multi_video" controls="true"></atavist-multi-video>
+<p key="the_caption" is="atavist-caption"></p></template></dom-module>
+</head>        <body class="template-setting-paragraph-spacing-Spaces template-setting-pagination-Scroll template-setting-navigation-option-None template-setting-pop-up-style-Overlay template-setting-drop-caps-Drop  not-homesite" data-route_type="story">  	  	  	    	<div class="story-wrapper" is="story-controller" nav="None">  		<div class="nav-wrapper navigation-None" is="navigation-None" organization='{"profile_image":"smalllogoc-1540464558-98.jpg","name":"Mail &amp; Guardian","base_path":"\/data\/files\/organization\/222157\/image\/raw\/","is_publication":false,"suppress_creatavist_footer":false,"profile_description":"The Mail &amp; Guardian is a South African weekly newspaper, published by M&amp;G Media in Johannesburg, South Africa. It focuses on political analysis, investigative reporting, news, local arts, music and popular culture.  ","url":"http:\/\/atavist.mg.co.za"}'>    			<article is="pagination-Scroll">    				  				  				  					  						<section class="atavist-section story-cover story-data-container" id="story-cover" data-story='{"title":"Bending the curves","subtitle":"In South Africa, as in many other countries, men test for HIV at lower rates than women. The country\u2019s latest national HIV survey found that about 72% of women 15 years and older said they had tested for HIV, according to 2012 data from the HSCR.","byline":"Mail &amp; Guardian","byline_picker":"{\"authors\":[{\"id\":\"custom\",\"profile_name\":\"Kiri Rupiah\",\"has_avatar\":false,\"is_atavist\":false,\"url\":null,\"type\":\"custom\"}],\"publication\":{\"id\":\"user-280287\",\"profile_name\":\"Mail &amp; Guardian\",\"avatar\":\"https:\/\/atavist.com\/data\/files\/organization\/222157\/image\/derivative\/cropandscale~150x150~smalllogoc-1501763525-76.jpg\",\"is_publication\":false,\"type\":\"user\",\"url\":\"https:\/\/mailguardian.atavist.com\",\"is_atavist\":true,\"has_avatar\":true}}","title_page":"chapsimg54-1512481115-3.jpg","description":" ","pub_date":"1513334646"}'><div data-cover="true" is="cover-default" class="atavist-cover-chapter-padding-top-as-margin-bottom atavist-cover-solid-background cover-default atavist-shared atavist-cover atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="cover?block_name=cover-default" block_type="cover-default" background='{"mode":"image","bg_properties":{"shim_color":"rgba(255, 255, 255, 0.02)","image":{"filename":"chapsimg54-1512481115-3.jpg","focal_point":{"x":50,"y":50},"progress":0,"path":"chapsimg54-1512481115-3.jpg","temp_path":null,"width":2000,"height":1333}}}' the_title="Bending the curves" the_subtitle="In South Africa, as in many other countries, men test for HIV at lower rates than women. The country’s latest national HIV survey found that about 72% of women 15 years and older said they had tested for HIV, according to 2012 data from the HSCR." the_byline='{"authors":[{"id":"custom","profile_name":"Kiri Rupiah","has_avatar":false,"is_atavist":false,"url":null,"type":"custom"}],"publication":{"id":"user-280287","profile_name":"Mail &amp; Guardian","avatar":"https://atavist.com/data/files/organization/222157/image/derivative/cropandscale~150x150~smalllogoc-1501763525-76.jpg","is_publication":false,"type":"user","url":"https://mailguardian.atavist.com","is_atavist":true,"has_avatar":true}}' data-cloudfront="true">
+<atavist-multi-background key="background" data_key="title_page" style-scope="cover-default" class="atavist-multi-background atavist-shared atavist-subcomponent" mode="image" bg_properties='{"shim_color":"rgba(255, 255, 255, 0.02)","image":{"filename":"chapsimg54-1512481115-3.jpg","focal_point":{"x":50,"y":50},"progress":0,"path":"chapsimg54-1512481115-3.jpg","temp_path":null,"width":2000,"height":1333}}'><atavist-background-image-with-shim class="atavist-background-image-with-shim atavist-shared atavist-subcomponent" shim_color="rgba(255, 255, 255, 0.02)" image='{"filename":"chapsimg54-1512481115-3.jpg","focal_point":{"x":50,"y":50},"progress":0,"path":"chapsimg54-1512481115-3.jpg","temp_path":null,"width":2000,"height":1333}'>
+  							<atavist-image use_as_background="true" style-scope="atavist-background-image-with-shim" class="atavist-image atavist-shared atavist-subcomponent has-uploader" style='background-position: 50% 50%; background-image: url("https://dh1rvgpokacch.cloudfront.net/atavist/222157/image/derivative/lite~chapsimg54-1512481115-3.jpg");' focal_point='{"x":50,"y":50}' sizes="100vw" progress="0" path="chapsimg54-1512481115-3.jpg" filename="chapsimg54-1512481115-3.jpg" width="2000" height="1333" data_key="title_page">
+  							
+  							
+  						</atavist-image>
+  							<div class="atavist-background-image-with-shim-shim" style-scope="atavist-background-image-with-shim" style="background-color: rgba(255, 255, 255, 0.02);"></div>
+  						</atavist-background-image-with-shim></atavist-multi-background>
+  						<div class="cover-text-outside-wrapper" style-scope="cover-default">
+  							<div class="cover-text-inside-wrapper atavist-cover-column-width-and-alignment" style-scope="cover-default">
+  								<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1" style-scope="cover-default">
+  									<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…" style-scope="cover-default" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">Bending the curves</atavist-story-data>
+  								</h1>
+  								<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2" style-scope="cover-default">
+  									<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…" style-scope="cover-default" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">In South Africa, as in many other countries, men test for HIV at lower rates than women. The country’s latest national HIV survey found that about 72% of women 15 years and older said they had tested for HIV, according to 2012 data from the HSCR.</atavist-story-data>
+  								</h2>
+  								<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline" style-scope="cover-default">
+  									<atavist-story-data-byline class="atavist-byline atavist-story-data-byline atavist-shared atavist-subcomponent" key="the_byline" data_key="byline_picker" legacy_data_key="byline" style-scope="cover-default" authors='[{"id":"user-280287","profile_name":"Mail &amp; Guardian","avatar":"https://atavist.com/data/files/organization/222157/image/derivative/cropandscale~150x150~smalllogoc-1501763525-76.jpg","is_publication":false,"type":"user","url":"https://mailguardian.atavist.com","is_atavist":true,"has_avatar":true}]'>
+  							<div class="atavist-byline-wrapper" style-scope="atavist-story-data-byline" data-type="user">
+  								<template is="dom-if" style-scope="atavist-story-data-byline"></template>
+  							</div>
+  						
+  						</atavist-story-data-byline>
+  								</div>
+  						
+  							</div>	
+  						</div>
+</div></section>  				  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3167214 chapter-type-text " id="chapter-3167214" data-chapter_type="0" data-chapter_id="3167214" data-chapter_url="https://mailandguardian.atavist.com/bending-the-curves#chapter-3167214" data-title="Amadoda sibili">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"Amadoda sibili","subtitle":"Across Southern Africa, men test for HIV at far lower rates than women. ","byline":""}'><div data-cover="true" is="cover-text-simple" class="atavist-cover-text-color cover-text-simple atavist-shared atavist-cover atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="section_title?block_name=cover-text-simple&amp;section_id=3167214" block_type="cover-text-simple" title_alignment="left" the_title="Amadoda sibili" the_subtitle="Across Southern Africa, men test for HIV at far lower rates than women. " the_byline='{"authors":[]}'>
+<div class="cover-text-wrapper atavist-cover-column-width-and-alignment cover-text-on-solid-background" style-scope="cover-text-simple" data-cover-text-alignment="left">
+  												<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1" style-scope="cover-text-simple">
+  													<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…" style-scope="cover-text-simple" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">Amadoda sibili</atavist-story-data>
+  												</h1>
+  												<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2" style-scope="cover-text-simple">
+  													<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…" style-scope="cover-text-simple" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">Across Southern Africa, men test for HIV at far lower rates than women. </atavist-story-data>
+  												</h2>
+  												<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline" style-scope="cover-text-simple">
+  													<atavist-story-data-byline class="atavist-byline atavist-story-data-byline atavist-shared atavist-subcomponent" key="the_byline" data_key="byline_picker" legacy_data_key="byline" style-scope="cover-text-simple" authors="[]">
+  												<div class="atavist-byline-wrapper" style-scope="atavist-story-data-byline">
+  													<template is="dom-if" style-scope="atavist-story-data-byline"></template>
+  												</div>
+  											
+  											</atavist-story-data-byline>
+  												</div>
+  											
+  											</div>	
+  											</div></div>  										  							
+  							
+  										<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~mensclinic-1512484995-37.jpg,scale~800x0~mensclinic-1512484995-37.jpg,scale~400x0~mensclinic-1512484995-37.jpg" contenteditable="false" atavist-block="true" block_id="1837655" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"mensclinic-1512484995-37.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":2714,"path":"mensclinic-1512484995-37.jpg","temp_path":null}' the_caption="Philandoda&amp;nbsp;Male Wellness clinic at Eshowe taxi rank. (Paul Botes/M&amp;amp;G)"></atavist-simple-image><p>The Philandoda clinic run by medical humanitarian organisation Doctors Without Borders (MSF) is tucked away in a discreet corner of Eshowe’s busy taxi rank.</p>
+<p>Every week, about 20 men walk through the doors of a container-cum-health centre. Many are taxi drivers and travellers, including men in transit to far-flung places such as Durban and Johannesburg. But it wasn’t always like this when the clinic first opened in July. In those first days, community health workers Bongani Thethwayo and Nkosinathi Mpungose were lucky if one man a week walked in through the doors.</p>
+<p>That’s when the duo took matters into their own hands. They began walking up and down the rank, popping their heads into the white Siyaya taxis. As drivers and passengers alike waited for each minibus to fill up before it could depart, Thethwayo and Mpungose spoke to the men inside about the services on offer at their clinic — testing and treatment for sexually transmitted infections (STIs), including HIV and referrals for medical male circumcisions (MMC).</p>
+<p>MMC has been shown to reduce a man’s risk of contracting HIV through vaginal sex by about 60% and the World Health Organisation now recommends the procedure as an HIV prevention method.</p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-left" data-assets="scale~1200x0~jpg-1512479728-99.jpg,scale~800x0~jpg-1512479728-99.jpg,scale~400x0~jpg-1512479728-99.jpg" contenteditable="false" atavist-block="true" block_id="1837355" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"jpg-1512479728-99.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":3024,"path":"jpg-1512479728-99.jpg","temp_path":null}' the_caption="The Philandoda clinic is one of Medicins Sans Frontieres’(MSF) Mobile One Stop Shops. (Kiri Rupiah/M&amp;amp;G)" data-alignment="left"></atavist-simple-image><p>Thethwayo and Mpungose then set out to canvass the area’s traditional leaders in the rolling green hills outside Eshowe, about 150km north of Durban. Because both men are from the area, they were able to develop close personal and working relationships with chiefs.<br></p>
+<p>The duo’s networking paid off.</p>
+<p>“In July we saw 138 clients. Eighty-four were tested and only four were HIV-positive. In August we had 209 clients, 159 were tested and 13 were positive. In September the headcount was 215 and we conducted 120 HIV tests and eight were positive. In October we saw 230 men and 149 were tested, nine were positive. So far we have initiated 29 people on treatment from July to October,” says Thethwayo.</p>
+<p>An increasing number of men now walk into the clinic each month to talk about issues such as condom use, STIs and erectile dysfunction, he says, which the health facility doesn’t treat but refers men to other clinics for help. And sometimes the men just come to chat about their relationships, something that is a bit of a rarity in these parts.</p>
+<p>Mpungose explains that here the notion of “Zulu pride”, or the concept that strength is a defining characteristic of being a “real man”, makes even sickness a sign of weakness. This means men are often reluctant to seek out medical care and this includes HIV testing. Factor in fears of gossip in a small town where your clinic nurse could be your neighbour and the reluctance of men to test for HIV only doubles, he says.</p>
+<p>No one knows this better than Thethwayo and Mpungose, who grew up here.</p>
+<atavist-simple-slideshow class="atavist-simple-slideshow atavist-shared atavist-block atavist-block-align-center slideshow-fade-effect" data-assets="" contenteditable="false" atavist-block="true" block_id="1837326" block_type="atavist-simple-slideshow" slides='[{"n":0,"slide_image":{"filename":"m1sseshowe3-1512477474-91.jpg","progress":0,"path":"m1sseshowe3-1512477474-91.jpg","temp_path":null,"width":2000,"height":1333,"focal_point":{"x":50,"y":50}}},{"n":1,"slide_image":{"filename":"dsc6914-1512477485-85.jpg","progress":0,"path":"dsc6914-1512477485-85.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}}},{"n":2,"slide_image":{"filename":"dsc6988-1512479574-8.jpg","progress":0,"path":"dsc6988-1512479574-8.jpg","temp_path":null,"width":2756,"height":4032,"focal_point":{"x":50,"y":50}}},{"n":3,"slide_image":{"filename":"img0946-1512479474-16.jpg","progress":0,"path":"img0946-1512479474-16.jpg","temp_path":null,"width":3024,"height":4032,"focal_point":{"x":50,"y":50}}}]' effect="fade"></atavist-simple-slideshow><p>In South Africa, as in many other countries, men test for HIV at lower rates than women. The country’s latest national HIV survey found that about 72% of women 15 years and older said they had tested for HIV, according to 2012 data from the Human Sciences Research Council (HSRC). Only six out of 10 men canvassed could say the same, the research found.</p>
+<p>And men who do test are also less likely to stay on treatment. About half of women living with HIV in South Africa are on antiretrovirals compared with about a third of HIV-positive men, research presented at the 2016 International Aids Conference reveals.</p>
+<p>Consequently, men are more likely than women to die of Aids-related illnesses, even in sub-Saharan Africa, a region where new HIV infections in women far outpace those in men, according to 2013 research published in the journal Aids.</p>
+<p>By offering services for men by men, Thethwayo and Mpungose are hoping to change this and help men to feel more comfortable about seeking out care. If they do, they could help to curb new HIV infections more widely within their community in this hard-hit area, where up to a quarter of people live with the virus, data from the 2012 HSRC survey shows.</p>
+<p>And South Africa won’t achieve the latest round of international HIV goals without finding its missing men.</p>
+<p>UNAids’s 90-90-90 goals aim to ensure that 90% of people know their HIV status, that 90% of these are on treatment and that 90% of those on antiretrovirals adhere so well to treatment that they have very low levels of HIV in their blood. When people adhere to HIV treatment, the medication can bring the amount of virus in their blood to almost undectable levels. This is known as viral suppression.</p>
+<p>Almost two decades of research published in journals such as the New England Journal of Medicine has found that people who are virally suppressed can’t transmit the virus.</p>
+<p>So if more people in areas like Eshowe test for HIV and more start treatment, science posits there will be fewer new HIV infections.</p>
+<p>MSF has been trying to achieve the 90-90-90 targets since beginning to work in Eshowe in 2013 and says that about three in every four people living with HIV know their status. Of these, about 85% are on treatment and an equal proportion are virally suppressed, according to a 2016 MSF report.</p>
+<p>Musa Ndlovu, MSF deputy field co-ordinator in Eshowe says: “We will only know if new HIV infections are falling after conducting a second population survey in 2018, but we do already know that our community testing and treatment support initiatives have apparently contributed, since 2012, to 86% of patients on treatment in the project area having a suppressed viral load one year after being on treatment — very close to achieving the so-called ‘third 90’.</p>
+<p>“We estimate that we are also close to reaching the first two 90s. The proportions of people in care, receiving timely viral load tests and succeeding on treatment are higher than the national average.” </p>
+<p>A similar set of services is available at Umfolozi College’s Eshowe campus: STI screening, pregnancy tests and HIV testing and counselling (HCT) for its students. Silindile Mtshali the nurse on duty is assisted by lay counsellor, Mduduzi Dlamini. By making her office a one-stop shop for counselling and treatment, those affected by HIV are less likely to default on their medication and easier to track in the event they need more support.</p>
+<p>Umfolozi College is one of nine public Further Education &amp; Training Colleges in the province of KwaZulu-Natal and one of only 50 in the country. The College has 5 main campuses: Chief Albert Luthuli, Eshowe, Esikhawini, Mandeni and Richards Bay.</p>
+<p>The Department of Health and MSF have collaborated with the Eshowe campus to offer STI screening, pregnancy tests and HIV testing and counselling (HCT) to students who attend the college. In 2013, the TVET clinic only offered HIV testing and counselling but expanded the scope of their work to provide primary healthcare services in 2015.</p>
+<atavist-simple-slideshow class="atavist-simple-slideshow atavist-shared atavist-block slideshow-fade-effect atavist-block-align-right" data-assets="" contenteditable="false" atavist-block="true" block_id="1836870" block_type="atavist-simple-slideshow" slides='[{"n":0,"slide_image":{"filename":"dsc6963-1512467739-0.jpg","progress":0,"path":"dsc6963-1512467739-0.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}},"slide_title":"&lt;p&gt;\n\n&lt;!--StartFragment--&gt;Nurse Silindile Mtshali in her office at Eshowe TVET college&lt;!--EndFragment--&gt;&lt;/p&gt;"},{"n":1,"slide_image":{"filename":"dsc6974-1512467764-81.jpg","progress":0,"path":"dsc6974-1512467764-81.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}},"slide_title":"&lt;p&gt;Mduduzi Dlamini, the lay-counsellor who works with Mtshali&amp;nbsp;(Paul Botes/M&amp;amp;G)&lt;/p&gt;"},{"n":2,"slide_image":{"filename":"dsc6944-1512475420-91.jpg","progress":0,"path":"dsc6944-1512475420-91.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}}}]' effect="fade" data-alignment="right"></atavist-simple-slideshow><p>Mtshali notes with a mischievous smile that women here are aware of HIV messaging and openly collect condoms from her office, but their main concern is not HIV but unplanned pregnancies. For those who test positive for HIV, she is able to initiate anti-retroviral treatment (ART) and link them to King Dinizulu Clinic, a provincial primary health care facility providing HIV and TB-related treatment, care and support services, situated in Eshowe. Students have the option of collecting their ARVs from her office until such a time as they leave the college. By making her office a one-stop shop for counselling and treatment, those affected by HIV are less likely to default on their medication and easier to track in the event they need more support.</p>
+<p>The MSF model is relatively simple in theory. Healthcare is provided in a manner that is cost-effective, efficient, self-reliant and easily replicable. From 2016, MSF lay counsellors had begun to mentor and support their DoH colleagues with the implementation of the National Adherence Guidelines, but there are already questions about whether the KwaZulu-Natal department of health has the resources to take the ‘Bending the Curves’ program forward. </p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3167217 chapter-type-text " id="chapter-3167217" data-chapter_type="0" data-chapter_id="3167217" data-chapter_url="https://mailandguardian.atavist.com/bending-the-curves#chapter-3167217" data-title="A Herculean task">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"A Herculean task","subtitle":"The Department of Health and MSF\u2019s clinic at Hohl\u2019s farm began as an exercise in winking in the dark.","byline":""}'><div data-cover="true" is="cover-text-simple" class="atavist-cover-text-color cover-text-simple atavist-shared atavist-cover atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="section_title?block_name=cover-text-simple&amp;section_id=3167217" block_type="cover-text-simple" title_alignment="left" the_title="A Herculean task" the_subtitle="The Department of Health and MSF’s clinic at Hohl’s farm began as an exercise in winking in the dark." the_byline='{"authors":[]}'>
+<div class="cover-text-wrapper atavist-cover-column-width-and-alignment cover-text-on-solid-background" style-scope="cover-text-simple" data-cover-text-alignment="left">
+  												<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1" style-scope="cover-text-simple">
+  													<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…" style-scope="cover-text-simple" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">A Herculean task</atavist-story-data>
+  												</h1>
+  												<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2" style-scope="cover-text-simple">
+  													<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…" style-scope="cover-text-simple" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">The Department of Health and MSF’s clinic at Hohl’s farm began as an exercise in winking in the dark.</atavist-story-data>
+  												</h2>
+  												<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline" style-scope="cover-text-simple">
+  													<atavist-story-data-byline class="atavist-byline atavist-story-data-byline atavist-shared atavist-subcomponent" key="the_byline" data_key="byline_picker" legacy_data_key="byline" style-scope="cover-text-simple" authors="[]">
+  												<div class="atavist-byline-wrapper" style-scope="atavist-story-data-byline">
+  													<template is="dom-if" style-scope="atavist-story-data-byline"></template>
+  												</div>
+  											
+  											</atavist-story-data-byline>
+  												</div>
+  											
+  											</div>	
+  											</div></div>  										  							
+  							
+  										<p>The hills of Eshowe and Mbongolwane are carpeted in sugar cane for most of the year: the region is known for its sugar production, dominated by farms and mills. Sugar cane is cut manually, using a panga. The hours are long, beginning before dawn and the labour is unforgiving and intense. Cane-cutters are usually paid per metre of cane that they cut, and a sizeable portion of the money they earn is sent home to support their families across South Africa, Mozambique and Swaziland.</p>
+<atavist-simple-slideshow class="atavist-simple-slideshow atavist-shared atavist-block atavist-block-align-center slideshow-fade-effect" data-assets="" contenteditable="false" atavist-block="true" block_id="1837252" block_type="atavist-simple-slideshow" slides='[{"n":0,"slide_image":{"filename":"dsc7014-1512475548-33.jpg","progress":0,"path":"dsc7014-1512475548-33.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}},"slide_title":"Hercules Maritz (Paul Botes/M&amp;amp;G)"},{"n":1,"slide_image":{"filename":"dsc7042-1512475554-65.jpg","progress":0,"path":"dsc7042-1512475554-65.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}},"slide_title":"Nurse Lindi Dlamini in her consulting room at Hohl’s farm (Paul Botes/M&amp;amp;G)"}]' effect="fade"></atavist-simple-slideshow><p>Hercules Maritz is a farm manager at Hohl’s Farming in Eshowe. A few years ago, he noticed farm labourers were falling ill and dying at an exponential rate, from diseases such as TB and HIV. Sugar cane is a labour intensive crop which doesn’t really allow for rest even for minor ailments. Working such long hours – and only being paid for the cane that you cut means labourers are usually unable to get to their local clinics during opening hours. </p>
+<atavist-pullquote class="atavist-pullquote atavist-shared atavist-block atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="1841514" block_type="atavist-pullquote" font_size="2" the_pullquote="&lt;!--StartFragment--&gt;There’s a fear of job loss if the farm owner learns they are HIV positive or not in peak physical condition for the gruelling work.&lt;!--EndFragment--&gt;"></atavist-pullquote><p>If you don’t work, you don’t get paid.  Most farm workers live in remote ‘compounds’ and designated reserves where living conditions can exacerbate illness. These living areas are situated several hours over hills and dirt roads on foot from their nearest clinic. Many labourers don’t have easy access to transport, and if there is transport available they don’t necessarily have the money to pay for it. Access, to healthcare, if any, is limited.</p>
+<atavist-simple-slideshow class="atavist-simple-slideshow atavist-shared atavist-block atavist-block-align-center slideshow-fade-effect" data-assets="" contenteditable="false" atavist-block="true" block_id="1837246" block_type="atavist-simple-slideshow" slides='[{"n":0,"slide_image":{"filename":"dsc7069-1512475479-5.jpg","progress":0,"path":"dsc7069-1512475479-5.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}},"slide_title":"Sugar cane at Hohl’s Farm (Paul Botes/M&amp;amp;G)"},{"n":1,"slide_image":{"filename":"dsc7055-1512475472-74.jpg","progress":0,"path":"dsc7055-1512475472-74.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}}},{"n":2,"slide_image":{"filename":"dsc7054-1512475486-87.jpg","progress":0,"path":"dsc7054-1512475486-87.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}}}]' effect="fade"></atavist-simple-slideshow><p>To further aggravate the situation, stigma and discrimination is high amongst sugar-cane workers.  There’s a fear of job loss if the farm owner learns they are HIV positive or not in peak physical condition for the gruelling work. Others do not want to disclose their HIV status to those around them out of fear of being discriminated against. The cramped and often unhygienic quarters in compounds makes it near-impossible to receive and store medication or live there without facing discrimination.</p>
+<p>The Department of Health and MSF’s clinic at Hohl’s farm began as an exercise of winking in the dark. The clinic wasn’t an instant hit as stigma and discrimination is pervasive amongst farm labourers. A few years ago, an MSF branded vehicle or tent was synonymous with HIV treatment only, so to be seen going anywhere near them was asking for trouble.</p>
+<atavist-simple-video class="atavist-simple-video atavist-shared atavist-block atavist-block-align-left" data-assets="img0888-1512474028-0.mov.mp4,img0888-1512474028-0.mov.jpg" contenteditable="false" atavist-block="true" block_id="1837154" block_type="atavist-simple-video" multi_video='{"mode":"video","video":{"filename":"img0888-1512474028-0.mov.mp4","progress":0,"video_progress":0,"path":"img0888-1512474028-0.mov.mp4","temp_path":null}}' the_caption="Nurse Lindi Dlamini (Video: Kiri Rupiah)" data-alignment="left"></atavist-simple-video><p>Nurse Lindi Dlamini has been coming to the farms since 2015. In that year, she would go to eight farms. That number has grown to include an additional 10 farms. She visits one farm a day, or four a week providing HIV testing and counselling, ART initiation and follow up, TB screening, treatment of STI’s and other minor ailments from Monday through Friday. Depending on the farm, she may see on average no less than 20 people. Most of her clients are women and they often come in for family planning concerns as well as other minor ailments.</p>
+<p>Though HIV naivety has diminished since she began nursing, Lindi finds that a lot of her clients are still very unaware of how to manage their reproductive health especially where family planning is concerned. “What they do, they’ve got this thing of telling each other wrong myths. For now, with the whole department of health, we’ve got a problem of them taking about their [contraceptive] implants – the three year prevention. They believe it’s Satanism. They believe it makes them bleed. They believe they get pregnant with it. So there’s a lot of myths. We’ve got more removals than insertions. We are removing more than inserting.”</p>
+<p>Dlamini is hopeful that the DoH can take over the clinics after MSF pulls out. Knowing the sorry state of the province’s healthcare department, that may be a tough one. Farmers may have to fund the clinics, Maritz says. Maritz admits the clinics in the area have improved the general health for workers, in turn, boosting productivity for farms. </p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3167219 chapter-type-text " id="chapter-3167219" data-chapter_type="0" data-chapter_id="3167219" data-chapter_url="https://mailandguardian.atavist.com/bending-the-curves#chapter-3167219" data-title="The mask of ignominy">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"The mask of ignominy","subtitle":"","byline":""}'><div data-cover="true" is="cover-text-simple" class="atavist-cover-text-color cover-text-simple atavist-shared atavist-cover atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="section_title?block_name=cover-text-simple&amp;section_id=3167219" block_type="cover-text-simple" title_alignment="left" the_title="The mask of ignominy" the_subtitle="" the_byline='{"authors":[]}'>
+<div class="cover-text-wrapper atavist-cover-column-width-and-alignment cover-text-on-solid-background" style-scope="cover-text-simple" data-cover-text-alignment="left">
+  												<h1 class="cover-title atavist-cover-font-sans-serif atavist-cover-h1" style-scope="cover-text-simple">
+  													<atavist-story-data key="the_title" data_key="title" placeholder="Write a title…" style-scope="cover-text-simple" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true">The mask of ignominy</atavist-story-data>
+  												</h1>
+  												<h2 class="cover-subtitle atavist-cover-font-sans-serif atavist-cover-h2" style-scope="cover-text-simple">
+  													<atavist-story-data key="the_subtitle" data_key="subtitle" placeholder="Write a subtitle…" style-scope="cover-text-simple" class="atavist-story-data atavist-shared atavist-subcomponent" contenteditable="true" data-editables="bold,italic,link" data-disable-return="true" data-disable-toolbar="true"></atavist-story-data>
+  												</h2>
+  												<div class="cover-byline atavist-cover-font-sans-serif atavist-cover-byline" style-scope="cover-text-simple">
+  													<atavist-story-data-byline class="atavist-byline atavist-story-data-byline atavist-shared atavist-subcomponent" key="the_byline" data_key="byline_picker" legacy_data_key="byline" style-scope="cover-text-simple" authors="[]">
+  												<div class="atavist-byline-wrapper" style-scope="atavist-story-data-byline">
+  													<template is="dom-if" style-scope="atavist-story-data-byline"></template>
+  												</div>
+  											
+  											</atavist-story-data-byline>
+  												</div>
+  											
+  											</div>	
+  											</div></div>  										  							
+  							
+  										<p>For Sipho Gumede, a mask is the necessary barrier between him and the world. At 19, he has had to drop out of school and stays in his room where he hardly receives visitors. The slender young man moves slowly and deliberately with the speed of a person navigating through pain. The constellation of pimples on his face give away his youth, belying his weary eyes.</p>
+<atavist-pullquote class="atavist-pullquote atavist-shared atavist-block atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="1841513" block_type="atavist-pullquote" font_size="2" the_pullquote="&lt;!--StartFragment--&gt;Having your own cutlery and crockery and basically living in quarantine warps the mind a&amp;nbsp;little.&lt;!--EndFragment--&gt;"></atavist-pullquote><atavist-simple-slideshow class="atavist-simple-slideshow atavist-shared atavist-block atavist-block-align-center slideshow-fade-effect" data-assets="" contenteditable="false" atavist-block="true" block_id="1837221" block_type="atavist-simple-slideshow" slides='[{"n":0,"slide_image":{"filename":"dsc7130-1512477205-62.jpg","progress":0,"path":"dsc7130-1512477205-62.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}},"slide_title":"Sipho Gumede (Paul Botes/M&amp;amp;G)"},{"n":1,"slide_image":{"filename":"dsc7163-1512475319-39.jpg","progress":0,"path":"dsc7163-1512475319-39.jpg","temp_path":null,"width":2756,"height":1839,"focal_point":{"x":50,"y":50}}},{"n":2,"slide_image":{"filename":"img0930-1512481953-83.jpg","progress":0,"width":4032,"height":3024,"path":"img0930-1512481953-83.jpg","temp_path":null,"focal_point":{"x":50,"y":50}}},{"n":3,"slide_image":{"filename":"img09321-1512482005-86.jpg","progress":0,"width":4032,"height":4032,"path":"img09321-1512482005-86.jpg","temp_path":null,"focal_point":{"x":50,"y":50}}},{"n":4,"slide_image":{"filename":"img0928-1512481979-63.jpg","progress":0,"width":3024,"height":3024,"path":"img0928-1512481979-63.jpg","temp_path":null,"focal_point":{"x":50,"y":50}}}]' effect="fade"></atavist-simple-slideshow><p>Gumede was diagnosed five months ago and began his treatment for TB the day after he was screened. He has another four months to go before his treatment ends. Of all his friends, only he contracted the disease. The girl he was dating stuck by him but he says would have understood had she bolted. She was at first hesitant but she knows the mask is necessary. Gumede can’t wait to get his life back. Having your own cutlery and crockery and basically living in quarantine warps the mind a little.</p>
+<p>With or without TB, the rolling hills of Mbongolwane are a nightmare on foot, plus there’s a long-distance taxi ride into town. On the occasions that he has had to visit the clinic, Gumede’s grandmother, Gogo Sakhephi Nduli had to borrow money from neighbours for the R36 round trip. Of the nine people living at his grandmother’s homestead, only one person is employed.</p>
+<p>  <!--StartFragment-->In 2012, MSF initiated community models of care in ten facilities in Eshowe and Mbongolwane in order to ease the burden of treatment collection for patients and streamlining the workload from the health care providers. Gumede’s medication is delivered to him by MSF lay cadres. <!--EndFragment--></p>
+<atavist-simple-image class="atavist-simple-image atavist-shared atavist-block atavist-block-align-center" data-assets="scale~1200x0~dsc7202-1512475373-64.jpg,scale~800x0~dsc7202-1512475373-64.jpg,scale~400x0~dsc7202-1512475373-64.jpg" contenteditable="false" atavist-block="true" block_id="1837231" block_type="atavist-simple-image" audio_color_scheme="white" the_image='{"filename":"dsc7202-1512475373-64.jpg","focal_point":{"x":50,"y":50},"progress":0,"width":2756,"path":"dsc7202-1512475373-64.jpg","temp_path":null}' the_caption=""></atavist-simple-image><p>Gumede’s mother was in a car accident and during her hospital stay found out she had contracted TB. Her body gave out not long afterwards. Sipho’s father died too and within the space of months, Gogo took in her daughter’s 3 children, including Sipho. </p>
+<p>Sipho’s siblings who are older than him are nowhere to be found. Gogo says they are in the area and receives news about their welfare and whereabouts intermittently. “I was unable to control them. I’m old and alone,” she says as tears begin to fall. Gogo is house proud. She does the best she can to keep a tidy home because she wants people to know that it wasn’t due to uncleanliness that Sipho became ill. Her grandson is a good boy who made bad choices because of alcohol and drugs, his grandmother insists, but he is taking his medication and will return to school as soon as he is well. More than anything, Gogo wants to do right by Sipho in ways she couldn’t for her own daughter and other grandchildren.</p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							</section>  					  						  							<section is="atavist-section" class="chapter atavist-section chapter-type-0 web chapter-3167211 chapter-type-text " id="chapter-3167211" data-chapter_type="0" data-chapter_id="3167211" data-chapter_url="https://mailandguardian.atavist.com/bending-the-curves#chapter-3167211" data-title="Death be not proud">
+  							
+	
+  								
+  										  											<div class="section-cover story-data-container" data-story='{"title":"Death be not proud","subtitle":"","byline":""}'><div data-cover="true" is="cover-text-simple"></div></div>  										  							
+  							
+  										<p>  <!--StartFragment-->One of the more striking aspects of Eshowe is the number of funeral homes in the town. As Babongile Luhlangowe counsellor commented, “We used to bury so many people here. Every Saturday there was a funeral. Saturdays. Old people, young people, it didn’t matter.”<!--EndFragment--></p>
+<p>Lay cadres or Community Health Agents (CHAPS) as they’re also known, work in the communities, providing a door-to-door service with the same package of services as the mobile and fixed sites. They also ensure linkage of patients who test positive to clinics and trace defaulters for the counsellors who are based at facilities.</p>
+<atavist-pullquote class="atavist-pullquote atavist-shared atavist-block atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="1841498" block_type="atavist-pullquote" font_size="2" the_pullquote="&amp;nbsp;“We used to bury so many people here. Every Saturday there was a funeral. Saturdays. Old people, young people, it didn’t matter.”"></atavist-pullquote><p>Luhlangowe has been a CHAP since 2012. She walks long distances in the Mbongolwane area. </p>
+<p>The hardest part of her work is not the diagnoses nor the long arduous walks or being turned away.</p>
+<atavist-simple-slideshow class="atavist-simple-slideshow atavist-shared atavist-block atavist-block-align-center slideshow-fade-effect" data-assets="" contenteditable="false" atavist-block="true" block_id="1836856" block_type="atavist-simple-slideshow" slides='[{"n":0,"slide_image":{"filename":"chapsimg52-1512467407-92.jpg","progress":0,"path":"chapsimg52-1512467407-92.jpg","temp_path":null,"width":2000,"height":1333,"focal_point":{"x":50,"y":50}},"slide_title":"&lt;p&gt;\n\n&lt;!--StartFragment--&gt;Babongile Luhlangowe is a community health agent in the Eshowe/Mbongolwane area.&lt;!--EndFragment--&gt;&lt;/p&gt;"},{"n":1,"slide_image":{"filename":"chapsimg53-1512467388-35.jpg","progress":0,"path":"chapsimg53-1512467388-35.jpg","temp_path":null,"width":2000,"height":1333,"focal_point":{"x":50,"y":50}}},{"n":2,"slide_image":{"filename":"chapsimg53-1512467413-87.jpg","progress":0,"path":"chapsimg53-1512467413-87.jpg","temp_path":null,"width":2000,"height":1333,"focal_point":{"x":50,"y":50}}},{"n":3,"slide_image":{"filename":"chapsimg54-1512477263-99.jpg","progress":0,"path":"chapsimg54-1512477263-99.jpg","temp_path":null,"width":2000,"height":1333,"focal_point":{"x":50,"y":50}}}]' effect="fade"></atavist-simple-slideshow><p>Luhlangowe has been a CHAP since 2012. She walks long distances in the Mbongolwane area. Her home has a backroom where she also receives clients, usually her immediate neighbours, who would like to be tested and get counselled away from their own homes.</p>
+<atavist-pullquote class="atavist-pullquote atavist-shared atavist-block atavist-block-align-center" data-assets="" contenteditable="false" atavist-block="true" block_id="1841516" block_type="atavist-pullquote" font_size="2" the_pullquote="&lt;!--StartFragment--&gt;“She won’t die. I won’t let it happen. I can’t let it happen.”&lt;!--EndFragment--&gt;"></atavist-pullquote><p>The hardest part of her work is not the diagnoses nor the long arduous walks or being turned away. Her eyes moisten and her gaze remains fixed to the floor as she describes when she has to deal with children who test positive for HIV. She has met resistance from parents who sometimes understandably, react to the news badly.</p>
+<p>One family she says refuses to accept their 14-year-old daughter’s positive status and will not allow their child to begin ARV treatment. Abantu bazothini – what will people say is one of the main barriers to her work. Luhlongwane is afraid the child will not get treatment but she refuses to give up on the family. “She won’t die. I won’t let it happen. I can’t let it happen.”</p>
+  									
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  							
+  									  							
+  							</section>  					  				    			</article>    			  				  					<footer is="atavist-footer"></footer>  						    			<div is="nav-story-title" class="nav-story-title"><a href="https://mailandguardian.atavist.com/bending-the-curves#chapter-cover">Bending the curves</a></div>  			<ol is="nav-chapter-list" class="nav-chapter-list">	  				  					<li><a href="http://atavist.mg.co.za/bending-the-curves#chapter-3167214">Amadoda sibili</a></li>  				  					<li><a href="http://atavist.mg.co.za/bending-the-curves#chapter-3167217">A Herculean task</a></li>  				  					<li><a href="http://atavist.mg.co.za/bending-the-curves#chapter-3167219">The mask of ignominy</a></li>  				  					<li><a href="http://atavist.mg.co.za/bending-the-curves#chapter-3167211">Death be not proud</a></li>  				  			</ol>    			<story-icons class="story-icons">  					<a class="white-label-logo-link" href="https://mg.co.za" target="_self"><img class="white-label-logo" src="cropandscale~64x64~smalllogoc-1540464558-98.jpg"></a>
+
+  				  							<a class="template-icon facebook-share-link " href="http://www.facebook.com/share.php?s=100&amp;p%5Burl%5D=http://atavist.mg.co.za/bending-the-curves&amp;p%5Btitle%5D=Bending+the+curves&amp;p%5Bimages%5D%5B0%5D=http://atavist.mg.co.za/data/files/organization/222157/image/share_image/public/mensclinic1-1513334593-44.jpg&amp;u=http://atavist.mg.co.za/bending-the-curves" target="_blank">
+		<svg width="25px" height="25px" viewbox="0 0 17 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+		    <g id="facebook-logo-svg" sketch:type="MSPage">
+		        <g sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+		            <g id="Layer_3" sketch:type="MSShapeGroup">
+		                <path d="M9.97434501,32 L3.32300153,32 L3.32300153,15.998751 L0,15.998751 L0,10.4844168 L3.32300153,10.4844168 L3.32300153,7.17363049 C3.32300153,2.67504537 5.1993759,0 10.5303776,0 L14.9685857,0 L14.9685857,5.51495872 L12.1943915,5.51495872 C10.1191648,5.51495872 9.98188444,6.28559162 9.98188444,7.72381491 L9.97434501,10.4837923 L15,10.4837923 L14.4119249,15.9981265 L9.97434501,15.9981265 L9.97434501,32 L9.97434501,32 Z"></path>
+		            </g>
+		        </g>
+		    </g>
+		</svg>	</a>
+  				<a class="template-icon twitter-share-link " href="http://twitter.com/share?url=http://atavist.mg.co.za/bending-the-curves&amp;text=In%20South%20Africa%2C%20as%20in%20many%20other%20countries%2C%20men%20test%20for%20HIV%20at%20lower%20rates%20than%20women." target="_blank">
+	<svg width="25px" height="25px" viewbox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+	    <g id="twitter-logo-svg" sketch:type="MSPage">
+	        <path d="M6.8468546,14.7778595 C7.13946884,14.8327653 7.44091602,14.8614382 7.74883743,14.8614382 C8.2909681,14.8614382 8.81303016,14.7725592 9.30214818,14.6081195 C6.90444045,14.2162782 5.07109641,12.0688801 5.07109641,9.47855443 C5.07109641,9.43838048 5.07153739,9.39831307 5.07241463,9.35835709 C5.78236361,9.7753633 6.60022535,10.0185403 7.47190902,10.031937 C6.03182993,9.11895802 5.07109641,7.47592616 5.07109641,5.60078546 C5.07109641,4.62721468 5.33007883,3.71621287 5.78066907,2.93747181 C8.33384413,6.09612415 12.0795876,8.1878691 16.3018208,8.47200394 C16.2244714,8.10468695 16.1837217,7.72323211 16.1837217,7.33193232 C16.1837217,4.38718727 18.4915376,2 21.3383731,2 C22.8256703,2 24.1658463,2.65156426 25.1066785,3.69379565 C26.274058,3.50197432 27.3590439,3.05429504 28.3062418,2.4080574 C27.9568348,3.6419808 27.1616641,4.67891429 26.1133073,5.31965762 C27.1395036,5.22094012 28.1090422,4.93263316 29,4.49988345 C28.3617362,5.58037564 27.5043698,6.50729073 26.4917998,7.21453212 C26.4926149,7.25356366 26.4930246,7.29269851 26.4930246,7.33193232 C26.4930246,7.43596944 26.4908563,7.83926449 26.4908563,7.93902234 C26.4908563,16.256971 19.9720256,23 11.9306395,23 C9.00545271,23 6.28173966,22.1077215 4,20.5719356 C4.40556308,20.6206158 4.8180998,20.6456403 5.23628697,20.6456403 C7.65860758,20.6456403 9.89134296,19.8060132 11.6773301,18.3927665 C9.39066593,18.3929778 7.49265825,16.8744086 6.8468546,14.7778595 Z" sketch:type="MSShapeGroup"></path>
+	    </g>
+	</svg></a>
+  				  				  			</story-icons>    			    		</div>
+<!-- navver -->  	</div>
+<!-- .story-wrapper -->    </body>  <script type="text/javascript">var prerendered = {
+  "story_id": "1695317",
+  "product_id": "5a2668bc77a01",
+  "organization_id": "222157",
+  "published": "1",
+  "soundtrack_autoplay": 0,
+  "soundtrack_loop": 0,
+  "tid": "vanilla",
+  "environment": "web",
+  "api_prefix": "",
+  "allowed_via": "free",
+  "pub_cookie_name": "at_pub222157",
+  "cms2": true,
+  "isPublishedVersion": true,
+  "tracksChapters": false,
+  "meterEnabled": false,
+  "meter_total": 0,
+  "access": true,
+  "accessVia": "free",
+  "tags": [
+
+  ],
+  "preset_tags": [
+
+  ],
+  "protected_tags": [
+    "News"
+  ],
+  "description": " ",
+  "device": "ipad",
+  "id": "1695317",
+  "isbn": "",
+  "title": "Bending the curves",
+  "author_id": "",
+  "subtitle": "In South Africa, as in many other countries, men test for HIV at lower rates than women. The country’s latest national HIV survey found that about 72% of women 15 years and older said they had tested for HIV, according to 2012 data from the HSCR.",
+  "title_page": "chapsimg54-1512481115-3.jpg",
+  "title_page_landscape": "",
+  "title_page_iphone": "",
+  "lastUpdate": "1544437755",
+  "lastPublish": "1544437698",
+  "status": "1",
+  "soundtrack_id": "0",
+  "twitter_text": "In South Africa, as in many other countries, men test for HIV at lower rates than women. ",
+  "facebook_text": "In South Africa, as in many other countries, men test for HIV at lower rates than women. ",
+  "story_link": "",
+  "facebook_image": "mensclinic1-1513334593-44.jpg",
+  "for_sale": "4",
+  "minimum_version": "1.0",
+  "story_type": "0",
+  "exclude_subscriptions": "",
+  "created": "1512466620",
+  "device_specific_options": "",
+  "createdBy": "280287",
+  "pub_date": "1513334646",
+  "price_credits": "0",
+  "availability": "10",
+  "slug": "bending-the-curves",
+  "use_profile_for_byline": 1,
+  "story_template": "vanilla",
+  "story_theme": "thurber",
+  "cover_type": "cover-default",
+  "last_cache": 1513334412,
+  "byline_picker": "{\"authors\":[{\"id\":\"custom\",\"profile_name\":\"Kiri Rupiah\",\"has_avatar\":false,\"is_atavist\":false,\"url\":null,\"type\":\"custom\"}],\"publication\":{\"id\":\"user-280287\",\"profile_name\":\"Mail & Guardian\",\"avatar\":\"https://atavist.com/data/files/organization/222157/image/derivative/cropandscale~150x150~smalllogoc-1501763525-76.jpg\",\"is_publication\":false,\"type\":\"user\",\"url\":\"https://mailguardian.atavist.com\",\"is_atavist\":true,\"has_avatar\":true}}",
+  "byline": "Kiri Rupiah",
+  "facebook_enable": 1,
+  "twitter_enable": 1,
+  "social_title": "Manning up to an epidemic",
+  "facebook_author_url": "https://www.facebook.com/MailGuardian/",
+  "story_link_enable": 0,
+  "publish_web": 1,
+  "commerce": 0,
+  "wv_availability": 2,
+  "fbia_development_import_status_id": "2074547099435093",
+  "facebook_publish_error": "(#200) Requires pages_manage_instant_articles permission to manage the object",
+  "publish_apps": 1,
+  "url": "http://atavist.mg.co.za/bending-the-curves",
+  "now": 1544437758,
+  "has_1url": 0,
+  "best_image_wide": "chapsimg54-1512481115-3.jpg",
+  "story_best_image_wide": "chapsimg54-1512481115-3.jpg",
+  "best_image_tall": "chapsimg54-1512481115-3.jpg",
+  "suppress_jacket_web": 0,
+  "access_override": "free",
+  "facebook_url": "http://atavist.mg.co.za/bending-the-curves",
+  "web_root": "",
+  "route_type": "story",
+  "hash": "606a44340b9e9",
+  "collections_url": "http://atavist.mg.co.za",
+  "domain": "",
+  "theme": "thurber",
+  "pagination": "Scroll",
+  "navigation_option": "None",
+  "pop-up_style": "Overlay",
+  "paragraph_spacing": "Spaces",
+  "drop_caps": "Drop",
+  "hyphenate": "Drawer",
+  "map_style": "basic",
+  "asset_domain": "",
+  "cloudfront_prefix": "",
+  "chapters": [
+    {
+      "id": 0,
+      "url": "https://mailandguardian.atavist.com/bending-the-curves#chapter-cover",
+      "hash": "story-cover",
+      "title": "",
+      "included": true
+    },
+    {
+      "id": 3167214,
+      "hash": "chapter-3167214",
+      "url": "http://atavist.mg.co.za/bending-the-curves#chapter-3167214",
+      "title": "Amadoda sibili",
+      "included": true
+    },
+    {
+      "id": 3167217,
+      "hash": "chapter-3167217",
+      "url": "http://atavist.mg.co.za/bending-the-curves#chapter-3167217",
+      "title": "A Herculean task",
+      "included": true
+    },
+    {
+      "id": 3167219,
+      "hash": "chapter-3167219",
+      "url": "http://atavist.mg.co.za/bending-the-curves#chapter-3167219",
+      "title": "The mask of ignominy",
+      "included": true
+    },
+    {
+      "id": 3167211,
+      "hash": "chapter-3167211",
+      "url": "http://atavist.mg.co.za/bending-the-curves#chapter-3167211",
+      "title": "Death be not proud",
+      "included": true
+    }
+  ],
+  "twitter_link": "http://twitter.com/share?url=http://atavist.mg.co.za/bending-the-curves&text=In%20South%20Africa%2C%20as%20in%20many%20other%20countries%2C%20men%20test%20for%20HIV%20at%20lower%20rates%20than%20women.",
+  "facebook_link": "http://www.facebook.com/share.php?s=100&p[url]=http://atavist.mg.co.za/bending-the-curves&p[title]=Bending+the+curves&p[images][0]=http://atavist.mg.co.za/data/files/organization/222157/image/share_image/public/mensclinic1-1513334593-44.jpg&u=http://atavist.mg.co.za/bending-the-curves",
+  "categories": {
+  },
+  "is_subscriber": false,
+  "logged_in": false
+}</script>
+<script type="text/javascript" src="script.js?bump&amp;1544437760"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+	_gaq.push(
+	  ['_setAccount', 'UA-116532-3'],
+	  ['_trackPageview'],
+	  ['b._setAccount', 'UA-40296216-5'],
+	  ['b._setCustomVar', 3, 'org_identifier', 'atavist-222157-19ce6fee9a3d', 3],
+	  ['b._setCustomVar', 4, 'story_identifier', 'atavist-222157-1695317-19ce6fee9a3d', 3],
+	  ['b._trackPageview']
+	);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</html>
